@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "protoc-gen-combo",
     importpath = "github.com/gogo/protobuf/protoc-gen-combo",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

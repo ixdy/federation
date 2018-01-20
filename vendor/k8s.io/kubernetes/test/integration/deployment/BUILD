@@ -14,7 +14,6 @@ go_test(
         "main_test.go",
     ],
     importpath = "k8s.io/kubernetes/test/integration/deployment",
-    library = ":go_default_library",
     tags = ["integration"],
     deps = [
         "//vendor/k8s.io/api/core/v1:go_default_library",

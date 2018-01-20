@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "format-schema",
     importpath = "github.com/googleapis/gnostic/tools/format-schema",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

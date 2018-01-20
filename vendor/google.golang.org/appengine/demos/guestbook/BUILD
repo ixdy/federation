@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "guestbook",
     importpath = "google.golang.org/appengine/demos/guestbook",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

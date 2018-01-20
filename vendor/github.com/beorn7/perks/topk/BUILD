@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["topk_test.go"],
     importpath = "github.com/beorn7/perks/topk",
-    library = ":go_default_library",
 )
 
 filegroup(

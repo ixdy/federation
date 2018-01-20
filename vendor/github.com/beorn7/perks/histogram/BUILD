@@ -14,7 +14,6 @@ go_test(
         "histogram_test.go",
     ],
     importpath = "github.com/beorn7/perks/histogram",
-    library = ":go_default_library",
 )
 
 filegroup(

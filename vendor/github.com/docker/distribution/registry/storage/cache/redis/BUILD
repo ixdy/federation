@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["redis_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/cache/redis",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/registry/storage/cache/cachecheck:go_default_library",
         "//vendor/github.com/garyburd/redigo/redis:go_default_library",

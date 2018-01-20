@@ -28,7 +28,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/libnetwork/api",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/reexec:go_default_library",
         "//vendor/github.com/docker/libnetwork:go_default_library",

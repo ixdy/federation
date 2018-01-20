@@ -21,7 +21,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "golang.org/x/exp/winfsnotify",
-    library = ":go_default_library",
 )
 
 filegroup(

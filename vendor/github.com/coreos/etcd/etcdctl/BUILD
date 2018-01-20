@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "etcdctl",
     importpath = "github.com/coreos/etcd/etcdctl",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

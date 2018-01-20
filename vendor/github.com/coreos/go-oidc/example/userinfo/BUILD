@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "userinfo",
     importpath = "github.com/coreos/go-oidc/example/userinfo",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

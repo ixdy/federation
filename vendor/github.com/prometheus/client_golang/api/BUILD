@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["client_test.go"],
     importpath = "github.com/prometheus/client_golang/api",
-    library = ":go_default_library",
 )
 
 filegroup(

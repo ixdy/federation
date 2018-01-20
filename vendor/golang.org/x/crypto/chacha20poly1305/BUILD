@@ -36,7 +36,6 @@ go_test(
         "chacha20poly1305_vectors_test.go",
     ],
     importpath = "golang.org/x/crypto/chacha20poly1305",
-    library = ":go_default_library",
 )
 
 filegroup(

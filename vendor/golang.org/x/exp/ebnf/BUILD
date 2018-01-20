@@ -14,7 +14,6 @@ go_test(
     name = "go_default_test",
     srcs = ["ebnf_test.go"],
     importpath = "golang.org/x/exp/ebnf",
-    library = ":go_default_library",
 )
 
 filegroup(

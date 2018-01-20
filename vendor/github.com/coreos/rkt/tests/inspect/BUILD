@@ -19,7 +19,6 @@ go_library(
 go_binary(
     name = "inspect",
     importpath = "github.com/coreos/rkt/tests/inspect",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

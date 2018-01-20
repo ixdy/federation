@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "report",
     importpath = "github.com/googleapis/gnostic/apps/report",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

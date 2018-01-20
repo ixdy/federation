@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["windowsipam_test.go"],
     importpath = "github.com/docker/libnetwork/ipams/windowsipam",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/libnetwork/ipamapi:go_default_library",
         "//vendor/github.com/docker/libnetwork/netlabel:go_default_library",

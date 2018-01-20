@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["zipfs_test.go"],
     importpath = "golang.org/x/tools/godoc/vfs/zipfs",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/tools/godoc/vfs:go_default_library"],
 )
 

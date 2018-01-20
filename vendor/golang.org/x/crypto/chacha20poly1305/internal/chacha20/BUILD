@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["chacha_test.go"],
     importpath = "golang.org/x/crypto/chacha20poly1305/internal/chacha20",
-    library = ":go_default_library",
 )
 
 filegroup(

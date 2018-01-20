@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "Gododir",
     importpath = "github.com/Azure/azure-sdk-for-go/Gododir",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

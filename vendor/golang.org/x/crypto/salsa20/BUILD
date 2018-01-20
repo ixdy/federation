@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["salsa20_test.go"],
     importpath = "golang.org/x/crypto/salsa20",
-    library = ":go_default_library",
 )
 
 filegroup(

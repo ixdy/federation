@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["request_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/lockunlock/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/lockunlock:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/testhelper:go_default_library",

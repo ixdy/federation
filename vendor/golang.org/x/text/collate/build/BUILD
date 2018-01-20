@@ -29,7 +29,6 @@ go_test(
         "trie_test.go",
     ],
     importpath = "golang.org/x/text/collate/build",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/text/internal/colltab:go_default_library"],
 )
 

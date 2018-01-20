@@ -20,7 +20,6 @@ go_test(
         "splunkhecmock_test.go",
     ],
     importpath = "github.com/docker/docker/daemon/logger/splunk",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/docker/daemon/logger:go_default_library"],
 )
 

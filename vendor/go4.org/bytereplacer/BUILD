@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["bytereplacer_test.go"],
     importpath = "go4.org/bytereplacer",
-    library = ":go_default_library",
 )
 
 filegroup(

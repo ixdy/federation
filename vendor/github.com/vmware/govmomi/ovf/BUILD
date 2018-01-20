@@ -20,7 +20,6 @@ go_test(
         "ovf_test.go",
     ],
     importpath = "github.com/vmware/govmomi/ovf",
-    library = ":go_default_library",
 )
 
 filegroup(

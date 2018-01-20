@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["service_test.go"],
     importpath = "github.com/influxdata/influxdb/services/continuous_querier",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/influxdata/influxdb/coordinator:go_default_library",
         "//vendor/github.com/influxdata/influxdb/influxql:go_default_library",

@@ -19,7 +19,6 @@ go_test(
         "readerutil_test.go",
     ],
     importpath = "go4.org/readerutil",
-    library = ":go_default_library",
 )
 
 filegroup(

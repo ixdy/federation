@@ -38,7 +38,6 @@ go_test(
     name = "go_default_test",
     srcs = ["config_test.go"],
     importpath = "github.com/coreos/etcd/embed",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/etcd/pkg/transport:go_default_library",
         "//vendor/github.com/ghodss/yaml:go_default_library",

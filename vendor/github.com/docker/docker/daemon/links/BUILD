@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["links_test.go"],
     importpath = "github.com/docker/docker/daemon/links",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/go-connections/nat:go_default_library"],
 )
 

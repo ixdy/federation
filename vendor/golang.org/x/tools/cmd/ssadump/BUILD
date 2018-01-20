@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "ssadump",
     importpath = "golang.org/x/tools/cmd/ssadump",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

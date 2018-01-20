@@ -12,7 +12,6 @@ go_test(
     srcs = ["disco_test.go"],
     data = glob(["testdata/**"]),
     importpath = "google.golang.org/api/google-api-go-generator/internal/disco",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "gotype",
     importpath = "golang.org/x/tools/cmd/gotype",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

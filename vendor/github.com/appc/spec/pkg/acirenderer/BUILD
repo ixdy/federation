@@ -21,7 +21,6 @@ go_test(
         "store_test.go",
     ],
     importpath = "github.com/appc/spec/pkg/acirenderer",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/appc/spec/aci:go_default_library",
         "//vendor/github.com/appc/spec/schema:go_default_library",

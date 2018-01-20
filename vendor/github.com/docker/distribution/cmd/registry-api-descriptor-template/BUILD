@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "registry-api-descriptor-template",
     importpath = "github.com/docker/distribution/cmd/registry-api-descriptor-template",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

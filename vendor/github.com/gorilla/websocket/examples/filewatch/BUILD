@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "filewatch",
     importpath = "github.com/gorilla/websocket/examples/filewatch",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

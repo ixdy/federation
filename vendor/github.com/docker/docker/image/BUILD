@@ -31,7 +31,6 @@ go_test(
         "store_test.go",
     ],
     importpath = "github.com/docker/docker/image",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types/container:go_default_library",
         "//vendor/github.com/docker/docker/layer:go_default_library",

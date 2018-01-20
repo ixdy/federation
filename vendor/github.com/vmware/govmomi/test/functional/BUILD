@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["issue_242_test.go"],
     importpath = "github.com/vmware/govmomi/test/functional",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/vmware/govmomi/object:go_default_library",
         "//vendor/github.com/vmware/govmomi/property:go_default_library",

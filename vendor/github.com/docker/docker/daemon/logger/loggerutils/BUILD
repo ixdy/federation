@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["log_tag_test.go"],
     importpath = "github.com/docker/docker/daemon/logger/loggerutils",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/docker/daemon/logger:go_default_library"],
 )
 

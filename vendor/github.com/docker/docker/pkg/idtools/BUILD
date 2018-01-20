@@ -28,7 +28,6 @@ go_test(
     name = "go_default_test",
     srcs = ["idtools_unix_test.go"],
     importpath = "github.com/docker/docker/pkg/idtools",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/stretchr/testify/require:go_default_library",
         "//vendor/golang.org/x/sys/unix:go_default_library",

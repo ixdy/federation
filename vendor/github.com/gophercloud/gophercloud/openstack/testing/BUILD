@@ -14,7 +14,6 @@ go_test(
         "endpoint_location_test.go",
     ],
     importpath = "github.com/gophercloud/gophercloud/openstack/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack:go_default_library",

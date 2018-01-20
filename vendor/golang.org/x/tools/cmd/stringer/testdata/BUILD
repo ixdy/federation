@@ -20,7 +20,6 @@ go_library(
 go_binary(
     name = "testdata",
     importpath = "golang.org/x/tools/cmd/stringer/testdata",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

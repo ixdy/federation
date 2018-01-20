@@ -23,7 +23,6 @@ go_library(
 go_binary(
     name = "worker",
     importpath = "github.com/docker/docker/hack/integration-cli-on-swarm/agent/worker",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

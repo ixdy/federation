@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "digraph",
     importpath = "golang.org/x/tools/cmd/digraph",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -18,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["digraph_test.go"],
     importpath = "golang.org/x/tools/cmd/digraph",
-    library = ":go_default_library",
 )
 
 filegroup(

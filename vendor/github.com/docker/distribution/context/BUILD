@@ -29,7 +29,6 @@ go_test(
         "version_test.go",
     ],
     importpath = "github.com/docker/distribution/context",
-    library = ":go_default_library",
 )
 
 filegroup(

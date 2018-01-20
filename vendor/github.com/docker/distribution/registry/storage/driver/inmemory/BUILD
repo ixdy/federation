@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["driver_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/driver/inmemory",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/registry/storage/driver:go_default_library",
         "//vendor/github.com/docker/distribution/registry/storage/driver/testsuites:go_default_library",

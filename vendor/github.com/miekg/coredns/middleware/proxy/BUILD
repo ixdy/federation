@@ -34,7 +34,6 @@ go_test(
         "upstream_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware/proxy",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/mholt/caddy:go_default_library"],
 )
 

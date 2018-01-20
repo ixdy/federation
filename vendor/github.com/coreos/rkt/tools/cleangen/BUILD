@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "cleangen",
     importpath = "github.com/coreos/rkt/tools/cleangen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["utils_test.go"],
     importpath = "github.com/docker/docker/pkg/testutil",
-    library = ":go_default_library",
 )
 
 filegroup(

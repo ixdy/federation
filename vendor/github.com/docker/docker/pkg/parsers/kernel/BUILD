@@ -39,7 +39,6 @@ go_test(
     name = "go_default_test",
     srcs = ["kernel_unix_test.go"],
     importpath = "github.com/docker/docker/pkg/parsers/kernel",
-    library = ":go_default_library",
 )
 
 filegroup(

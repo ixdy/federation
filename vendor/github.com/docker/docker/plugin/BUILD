@@ -73,7 +73,6 @@ go_test(
         "store_test.go",
     ],
     importpath = "github.com/docker/docker/plugin",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types:go_default_library",
         "//vendor/github.com/docker/docker/plugin/v2:go_default_library",

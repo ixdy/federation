@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["locker_test.go"],
     importpath = "github.com/docker/docker/pkg/locker",
-    library = ":go_default_library",
 )
 
 filegroup(

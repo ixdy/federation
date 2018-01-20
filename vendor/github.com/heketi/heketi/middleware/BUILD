@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["jwt_test.go"],
     importpath = "github.com/heketi/heketi/middleware",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/dgrijalva/jwt-go:go_default_library",
         "//vendor/github.com/gorilla/context:go_default_library",

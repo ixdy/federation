@@ -25,7 +25,6 @@ go_test(
     args = ["--kubeadm-path=../../kubeadm"],
     data = ["//cmd/kubeadm"],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/test/cmd",
-    library = ":go_default_library",
     tags = [
         "integration",
         "skip",

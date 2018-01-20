@@ -28,7 +28,6 @@ go_test(
         "urls_test.go",
     ],
     importpath = "github.com/docker/distribution/registry/api/v2",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/reference:go_default_library",
         "//vendor/github.com/gorilla/mux:go_default_library",

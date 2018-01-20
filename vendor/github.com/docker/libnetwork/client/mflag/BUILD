@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["flag_test.go"],
     importpath = "github.com/docker/libnetwork/client/mflag",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/libnetwork/testutils:go_default_library"],
 )
 

@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "aefix",
     importpath = "google.golang.org/appengine/cmd/aefix",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -26,7 +25,6 @@ go_test(
         "main_test.go",
     ],
     importpath = "google.golang.org/appengine/cmd/aefix",
-    library = ":go_default_library",
 )
 
 filegroup(

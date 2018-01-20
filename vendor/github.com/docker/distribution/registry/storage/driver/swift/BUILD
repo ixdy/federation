@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["swift_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/driver/swift",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/context:go_default_library",
         "//vendor/github.com/docker/distribution/registry/storage/driver:go_default_library",

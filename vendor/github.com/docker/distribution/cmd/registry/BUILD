@@ -27,7 +27,6 @@ go_library(
 go_binary(
     name = "registry",
     importpath = "github.com/docker/distribution/cmd/registry",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

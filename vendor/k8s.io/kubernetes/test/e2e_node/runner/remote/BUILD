@@ -9,7 +9,6 @@ load(
 go_binary(
     name = "remote",
     importpath = "k8s.io/kubernetes/test/e2e_node/runner/remote",
-    library = ":go_default_library",
 )
 
 go_library(

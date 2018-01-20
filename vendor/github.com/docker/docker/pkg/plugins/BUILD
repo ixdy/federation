@@ -35,7 +35,6 @@ go_test(
         "plugin_test.go",
     ],
     importpath = "github.com/docker/docker/pkg/plugins",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/plugins/transport:go_default_library",
         "//vendor/github.com/docker/go-connections/tlsconfig:go_default_library",

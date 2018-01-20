@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "what-json",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/what-json",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

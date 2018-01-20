@@ -18,7 +18,6 @@ go_test(
         "results_test.go",
     ],
     importpath = "github.com/gophercloud/gophercloud/openstack/networking/v2/subnets/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/networking/v2/common:go_default_library",

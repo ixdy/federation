@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "aedeploy",
     importpath = "google.golang.org/appengine/cmd/aedeploy",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

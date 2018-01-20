@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "cmd",
     importpath = "github.com/pelletier/go-toml/cmd",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

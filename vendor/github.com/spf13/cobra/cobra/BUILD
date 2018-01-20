@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "cobra",
     importpath = "github.com/spf13/cobra/cobra",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

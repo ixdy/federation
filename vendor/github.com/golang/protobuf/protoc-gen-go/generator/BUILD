@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["name_test.go"],
     importpath = "github.com/golang/protobuf/protoc-gen-go/generator",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/golang/protobuf/protoc-gen-go/descriptor:go_default_library"],
 )
 

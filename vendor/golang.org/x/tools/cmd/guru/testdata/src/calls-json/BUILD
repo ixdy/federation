@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "calls-json",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/calls-json",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

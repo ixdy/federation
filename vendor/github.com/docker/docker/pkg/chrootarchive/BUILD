@@ -44,7 +44,6 @@ go_test(
     name = "go_default_test",
     srcs = ["archive_test.go"],
     importpath = "github.com/docker/docker/pkg/chrootarchive",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/archive:go_default_library",
         "//vendor/github.com/docker/docker/pkg/reexec:go_default_library",

@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "referrers",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/referrers",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -19,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["int_test.go"],
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/referrers",
-    library = ":go_default_library",
     deps = ["//vendor/lib:go_default_library"],
 )
 

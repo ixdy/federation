@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "main",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/main",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

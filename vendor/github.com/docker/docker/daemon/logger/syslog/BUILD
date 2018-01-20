@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["syslog_test.go"],
     importpath = "github.com/docker/docker/daemon/logger/syslog",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/RackSec/srslog:go_default_library"],
 )
 

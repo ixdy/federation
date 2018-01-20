@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["ocsp_test.go"],
     importpath = "golang.org/x/crypto/ocsp",
-    library = ":go_default_library",
 )
 
 filegroup(

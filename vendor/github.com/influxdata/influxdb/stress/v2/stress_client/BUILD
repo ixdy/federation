@@ -35,7 +35,6 @@ go_test(
         "tracer_test.go",
     ],
     importpath = "github.com/influxdata/influxdb/stress/v2/stress_client",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/influxdata/influxdb/client/v2:go_default_library"],
 )
 

@@ -13,7 +13,6 @@ go_library(
 go_binary(
     name = "generate",
     importpath = "github.com/xanzy/go-cloudstack/generate",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

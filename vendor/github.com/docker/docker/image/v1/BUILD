@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["imagev1_test.go"],
     importpath = "github.com/docker/docker/image/v1",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/docker/image:go_default_library"],
 )
 

@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["malformed_host_override_test.go"],
     importpath = "github.com/docker/docker/cmd/dockerd/hack",
-    library = ":go_default_library",
 )
 
 filegroup(

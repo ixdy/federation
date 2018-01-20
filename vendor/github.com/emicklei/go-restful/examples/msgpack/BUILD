@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["msgpack_entity_test.go"],
     importpath = "github.com/emicklei/go-restful/examples/msgpack",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/emicklei/go-restful:go_default_library"],
 )
 

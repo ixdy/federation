@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["twofish_test.go"],
     importpath = "golang.org/x/crypto/twofish",
-    library = ":go_default_library",
 )
 
 filegroup(

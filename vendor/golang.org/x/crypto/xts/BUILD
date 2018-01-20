@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["xts_test.go"],
     importpath = "golang.org/x/crypto/xts",
-    library = ":go_default_library",
 )
 
 filegroup(

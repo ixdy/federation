@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["request_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/shares/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/shares:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/testhelper:go_default_library",

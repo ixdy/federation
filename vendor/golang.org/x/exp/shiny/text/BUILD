@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["text_test.go"],
     importpath = "golang.org/x/exp/shiny/text",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/image/font:go_default_library",
         "//vendor/golang.org/x/image/math/fixed:go_default_library",

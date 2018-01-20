@@ -24,7 +24,6 @@ go_test(
     name = "go_default_test",
     srcs = ["custombytesnonstruct_test.go"],
     importpath = "github.com/gogo/protobuf/test/custombytesnonstruct",
-    library = ":go_default_library",
 )
 
 filegroup(

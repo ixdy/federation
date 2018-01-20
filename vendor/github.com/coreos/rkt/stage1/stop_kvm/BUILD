@@ -22,7 +22,6 @@ go_library(
 go_binary(
     name = "stop_kvm",
     importpath = "github.com/coreos/rkt/stage1/stop_kvm",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

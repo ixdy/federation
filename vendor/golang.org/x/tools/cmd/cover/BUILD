@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "cover",
     importpath = "golang.org/x/tools/cmd/cover",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

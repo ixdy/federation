@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["regulator_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/driver/base",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["clearsign_test.go"],
     importpath = "golang.org/x/crypto/openpgp/clearsign",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/crypto/openpgp:go_default_library"],
 )
 

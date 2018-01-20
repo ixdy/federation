@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["util_test.go"],
     importpath = "github.com/miekg/dns/dnsutil",
-    library = ":go_default_library",
 )
 
 filegroup(

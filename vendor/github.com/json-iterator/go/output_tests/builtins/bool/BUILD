@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["json_test.go"],
     importpath = "github.com/json-iterator/go/output_tests/builtins/bool",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/davecgh/go-spew/spew:go_default_library",
         "//vendor/github.com/google/gofuzz:go_default_library",

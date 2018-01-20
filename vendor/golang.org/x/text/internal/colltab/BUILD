@@ -32,7 +32,6 @@ go_test(
         "weighter_test.go",
     ],
     importpath = "golang.org/x/text/internal/colltab",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/text/internal/testtext:go_default_library",
         "//vendor/golang.org/x/text/language:go_default_library",

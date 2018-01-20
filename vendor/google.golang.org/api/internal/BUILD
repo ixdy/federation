@@ -25,7 +25,6 @@ go_test(
         "pool_test.go",
     ],
     importpath = "google.golang.org/api/internal",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/google/go-cmp/cmp:go_default_library",
         "//vendor/golang.org/x/net/context:go_default_library",

@@ -41,7 +41,6 @@ go_library(
 go_binary(
     name = "guru",
     importpath = "golang.org/x/tools/cmd/guru",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -49,7 +48,6 @@ go_test(
     name = "go_default_test",
     srcs = ["unit_test.go"],
     importpath = "golang.org/x/tools/cmd/guru",
-    library = ":go_default_library",
 )
 
 go_test(

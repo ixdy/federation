@@ -28,7 +28,6 @@ go_test(
         "style_test.go",
     ],
     importpath = "golang.org/x/tools/present",
-    library = ":go_default_library",
 )
 
 filegroup(

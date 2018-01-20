@@ -18,7 +18,6 @@ go_library(
 go_binary(
     name = "flexvolume",
     importpath = "github.com/libopenstorage/openstorage/pkg/flexvolume/cmd/flexvolume",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

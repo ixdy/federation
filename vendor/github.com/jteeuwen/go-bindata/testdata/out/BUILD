@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "out",
     importpath = "github.com/jteeuwen/go-bindata/testdata/out",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

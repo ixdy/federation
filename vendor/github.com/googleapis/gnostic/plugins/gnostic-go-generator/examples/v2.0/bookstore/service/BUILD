@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "service",
     importpath = "github.com/googleapis/gnostic/plugins/gnostic-go-generator/examples/v2.0/bookstore/service",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

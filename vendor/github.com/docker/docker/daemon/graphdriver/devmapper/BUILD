@@ -46,7 +46,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/docker/daemon/graphdriver/devmapper",
-    library = ":go_default_library",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux_amd64": [
             "//vendor/github.com/docker/docker/daemon/graphdriver:go_default_library",

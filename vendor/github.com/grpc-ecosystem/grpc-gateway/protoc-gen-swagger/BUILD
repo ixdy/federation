@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "protoc-gen-swagger",
     importpath = "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

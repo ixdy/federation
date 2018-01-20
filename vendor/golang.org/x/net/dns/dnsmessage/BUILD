@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["message_test.go"],
     importpath = "golang.org/x/net/dns/dnsmessage",
-    library = ":go_default_library",
 )
 
 go_test(

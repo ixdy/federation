@@ -47,7 +47,6 @@ go_library(
 go_binary(
     name = "init",
     importpath = "github.com/coreos/rkt/stage1/init",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

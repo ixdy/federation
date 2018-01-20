@@ -24,7 +24,6 @@ go_library(
 go_binary(
     name = "token-server",
     importpath = "github.com/docker/distribution/contrib/token-server",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

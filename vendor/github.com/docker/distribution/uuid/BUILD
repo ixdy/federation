@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["uuid_test.go"],
     importpath = "github.com/docker/distribution/uuid",
-    library = ":go_default_library",
 )
 
 filegroup(

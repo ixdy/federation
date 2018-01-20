@@ -25,7 +25,6 @@ go_test(
         "layout_test.go",
     ],
     importpath = "github.com/appc/spec/aci",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/appc/spec/schema:go_default_library"],
 )
 

@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["requiredexamplepb_test.go"],
     importpath = "github.com/gogo/protobuf/test/required",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gogo/protobuf/proto:go_default_library",
         "//vendor/github.com/gogo/protobuf/test:go_default_library",

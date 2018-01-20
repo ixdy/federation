@@ -64,7 +64,6 @@ go_test(
         "setup_verify_test.go",
     ],
     importpath = "github.com/docker/libnetwork/drivers/bridge",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/reexec:go_default_library",
         "//vendor/github.com/docker/libnetwork/driverapi:go_default_library",

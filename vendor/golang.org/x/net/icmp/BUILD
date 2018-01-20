@@ -49,7 +49,6 @@ go_test(
         "ipv4_test.go",
     ],
     importpath = "golang.org/x/net/icmp",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/net/internal/iana:go_default_library",
         "//vendor/golang.org/x/net/internal/socket:go_default_library",

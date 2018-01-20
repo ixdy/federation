@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["option_test.go"],
     importpath = "google.golang.org/api/option",
-    library = ":go_default_library",
     deps = [
         "//vendor/google.golang.org/api/internal:go_default_library",
         "//vendor/google.golang.org/grpc:go_default_library",

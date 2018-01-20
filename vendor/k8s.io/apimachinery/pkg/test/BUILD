@@ -17,7 +17,6 @@ go_test(
         "runtime_unversioned_test.go",
     ],
     importpath = "k8s.io/apimachinery/pkg/test",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/google/gofuzz:go_default_library",
         "//vendor/k8s.io/apimachinery/pkg/api/equality:go_default_library",

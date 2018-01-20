@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "jwt",
     importpath = "github.com/dgrijalva/jwt-go/cmd/jwt",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

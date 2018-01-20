@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["consistenthash_test.go"],
     importpath = "github.com/golang/groupcache/consistenthash",
-    library = ":go_default_library",
 )
 
 filegroup(

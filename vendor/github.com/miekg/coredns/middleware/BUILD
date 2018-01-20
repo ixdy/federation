@@ -26,7 +26,6 @@ go_test(
         "normalize_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware",
-    library = ":go_default_library",
 )
 
 filegroup(

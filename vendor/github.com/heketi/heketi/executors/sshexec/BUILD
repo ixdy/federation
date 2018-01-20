@@ -28,7 +28,6 @@ go_test(
         "sshexec_test.go",
     ],
     importpath = "github.com/heketi/heketi/executors/sshexec",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/heketi/heketi/executors:go_default_library",
         "//vendor/github.com/heketi/heketi/pkg/utils:go_default_library",

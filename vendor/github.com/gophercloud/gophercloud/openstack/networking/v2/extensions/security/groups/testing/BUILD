@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["requests_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud/openstack/networking/v2/common:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups:go_default_library",

@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["poller_test.go"],
     importpath = "github.com/docker/docker/pkg/filenotify",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/fsnotify/fsnotify:go_default_library"],
 )
 

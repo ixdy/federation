@@ -19,7 +19,6 @@ go_test(
         "types_test.go",
     ],
     importpath = "golang.org/x/crypto/acme",
-    library = ":go_default_library",
 )
 
 filegroup(

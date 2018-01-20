@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "implements",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/implements",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

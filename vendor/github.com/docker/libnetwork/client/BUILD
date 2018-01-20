@@ -27,7 +27,6 @@ go_test(
         "client_test.go",
     ],
     importpath = "github.com/docker/libnetwork/client",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/libnetwork/testutils:go_default_library"],
 )
 

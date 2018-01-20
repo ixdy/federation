@@ -50,7 +50,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/docker/volume",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/docker/api/types/mount:go_default_library"],
 )
 

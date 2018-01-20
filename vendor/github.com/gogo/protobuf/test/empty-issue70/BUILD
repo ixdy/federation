@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["empty_test.go"],
     importpath = "github.com/gogo/protobuf/test/empty-issue70",
-    library = ":go_default_library",
 )
 
 filegroup(

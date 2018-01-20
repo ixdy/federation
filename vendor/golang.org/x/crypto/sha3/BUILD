@@ -38,7 +38,6 @@ go_test(
     srcs = ["sha3_test.go"],
     data = glob(["testdata/**"]),
     importpath = "golang.org/x/crypto/sha3",
-    library = ":go_default_library",
 )
 
 filegroup(

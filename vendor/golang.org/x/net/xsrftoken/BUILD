@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["xsrf_test.go"],
     importpath = "golang.org/x/net/xsrftoken",
-    library = ":go_default_library",
 )
 
 filegroup(

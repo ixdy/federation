@@ -25,7 +25,6 @@ go_test(
     name = "go_default_test",
     srcs = ["customizations_test.go"],
     importpath = "github.com/aws/aws-sdk-go/service/polly",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/awstesting/unit:go_default_library",

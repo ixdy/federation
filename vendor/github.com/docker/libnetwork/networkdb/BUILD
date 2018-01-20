@@ -38,7 +38,6 @@ go_test(
     name = "go_default_test",
     srcs = ["networkdb_test.go"],
     importpath = "github.com/docker/libnetwork/networkdb",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/go-events:go_default_library",
         "//vendor/github.com/sirupsen/logrus:go_default_library",

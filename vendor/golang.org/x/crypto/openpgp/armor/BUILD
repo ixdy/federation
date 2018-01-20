@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["armor_test.go"],
     importpath = "golang.org/x/crypto/openpgp/armor",
-    library = ":go_default_library",
 )
 
 filegroup(

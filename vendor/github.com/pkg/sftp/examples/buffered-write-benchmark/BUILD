@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "buffered-write-benchmark",
     importpath = "github.com/pkg/sftp/examples/buffered-write-benchmark",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

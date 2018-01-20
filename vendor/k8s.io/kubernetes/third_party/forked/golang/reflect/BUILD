@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["deep_equal_test.go"],
     importpath = "k8s.io/kubernetes/third_party/forked/golang/reflect",
-    library = ":go_default_library",
 )
 
 filegroup(

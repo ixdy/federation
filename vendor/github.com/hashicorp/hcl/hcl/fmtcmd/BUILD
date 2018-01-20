@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["fmtcmd_test.go"],
     importpath = "github.com/hashicorp/hcl/hcl/fmtcmd",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/hashicorp/hcl/testhelper:go_default_library"],
 )
 

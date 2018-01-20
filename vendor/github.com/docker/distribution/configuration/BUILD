@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["configuration_test.go"],
     importpath = "github.com/docker/distribution/configuration",
-    library = ":go_default_library",
     deps = [
         "//vendor/gopkg.in/check.v1:go_default_library",
         "//vendor/gopkg.in/yaml.v2:go_default_library",

@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["azure_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/driver/azure",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/registry/storage/driver:go_default_library",
         "//vendor/github.com/docker/distribution/registry/storage/driver/testsuites:go_default_library",

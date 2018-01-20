@@ -9,7 +9,6 @@ load(
 go_binary(
     name = "cauldron",
     importpath = "k8s.io/kubernetes/test/soak/cauldron",
-    library = ":go_default_library",
 )
 
 go_library(

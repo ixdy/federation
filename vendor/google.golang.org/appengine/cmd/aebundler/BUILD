@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "aebundler",
     importpath = "google.golang.org/appengine/cmd/aebundler",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

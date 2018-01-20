@@ -57,7 +57,6 @@ go_test(
         "timestamp_test.go",
     ],
     importpath = "github.com/influxdata/influxdb/tsdb/engine/tsm1",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/golang/snappy:go_default_library"],
 )
 

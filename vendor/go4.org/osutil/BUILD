@@ -24,7 +24,6 @@ go_test(
     name = "go_default_test",
     srcs = ["exec_test.go"],
     importpath = "go4.org/osutil",
-    library = ":go_default_library",
 )
 
 filegroup(

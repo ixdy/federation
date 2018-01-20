@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["box_test.go"],
     importpath = "golang.org/x/crypto/nacl/box",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/crypto/curve25519:go_default_library"],
 )
 

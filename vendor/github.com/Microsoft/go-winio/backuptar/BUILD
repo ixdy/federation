@@ -25,7 +25,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tar_test.go"],
     importpath = "github.com/Microsoft/go-winio/backuptar",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/Microsoft/go-winio:go_default_library",
         "//vendor/github.com/Microsoft/go-winio/archive/tar:go_default_library",

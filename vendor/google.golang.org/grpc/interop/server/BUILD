@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "server",
     importpath = "google.golang.org/grpc/interop/server",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

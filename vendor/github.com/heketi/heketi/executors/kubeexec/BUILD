@@ -27,7 +27,6 @@ go_test(
     name = "go_default_test",
     srcs = ["kubeexec_test.go"],
     importpath = "github.com/heketi/heketi/executors/kubeexec",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/heketi/heketi/executors/sshexec:go_default_library",
         "//vendor/github.com/heketi/heketi/pkg/utils:go_default_library",

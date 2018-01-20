@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["middleware_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/driver/middleware/redirect",
-    library = ":go_default_library",
     deps = ["//vendor/gopkg.in/check.v1:go_default_library"],
 )
 

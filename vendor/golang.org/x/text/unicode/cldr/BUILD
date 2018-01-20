@@ -25,7 +25,6 @@ go_test(
         "slice_test.go",
     ],
     importpath = "golang.org/x/text/unicode/cldr",
-    library = ":go_default_library",
 )
 
 go_test(

@@ -33,7 +33,6 @@ go_library(
 go_binary(
     name = "godoc",
     importpath = "golang.org/x/tools/cmd/godoc",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

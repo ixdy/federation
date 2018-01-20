@@ -14,7 +14,6 @@ go_test(
     name = "go_default_test",
     srcs = ["otr_test.go"],
     importpath = "golang.org/x/crypto/otr",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "example",
     importpath = "github.com/google/cadvisor/storage/bigquery/client/example",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

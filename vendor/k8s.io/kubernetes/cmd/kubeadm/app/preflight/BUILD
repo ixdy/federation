@@ -40,7 +40,6 @@ go_test(
         "utils_test.go",
     ],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/preflight",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/renstrom/dedent:go_default_library",
         "//vendor/k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm:go_default_library",

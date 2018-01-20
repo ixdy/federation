@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["rcode_test.go"],
     importpath = "github.com/miekg/coredns/middleware/pkg/rcode",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/miekg/dns:go_default_library"],
 )
 

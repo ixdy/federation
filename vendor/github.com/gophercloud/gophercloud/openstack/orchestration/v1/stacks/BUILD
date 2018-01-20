@@ -30,7 +30,6 @@ go_test(
         "utils_test.go",
     ],
     importpath = "github.com/gophercloud/gophercloud/openstack/orchestration/v1/stacks",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/gophercloud/gophercloud/testhelper:go_default_library"],
 )
 

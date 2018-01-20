@@ -10,7 +10,6 @@ go_test(
     name = "go_default_test",
     srcs = ["roundtrip_test.go"],
     importpath = "k8s.io/apiextensions-apiserver/examples/client-go/apis/cr/v1",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/google/gofuzz:go_default_library",
         "//vendor/k8s.io/apimachinery/pkg/api/testing/fuzzer:go_default_library",

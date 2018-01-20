@@ -55,7 +55,6 @@ go_test(
         "utils_test.go",
     ],
     importpath = "github.com/docker/docker/builder/remotecontext",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/builder:go_default_library",
         "//vendor/github.com/docker/docker/pkg/archive:go_default_library",

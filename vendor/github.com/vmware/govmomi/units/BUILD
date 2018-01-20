@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["size_test.go"],
     importpath = "github.com/vmware/govmomi/units",
-    library = ":go_default_library",
 )
 
 filegroup(

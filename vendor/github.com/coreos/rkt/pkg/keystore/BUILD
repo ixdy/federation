@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["keystore_test.go"],
     importpath = "github.com/coreos/rkt/pkg/keystore",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/rkt/pkg/keystore/keystoretest:go_default_library",
         "//vendor/golang.org/x/crypto/openpgp/errors:go_default_library",

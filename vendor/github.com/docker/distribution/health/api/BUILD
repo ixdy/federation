@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["api_test.go"],
     importpath = "github.com/docker/distribution/health/api",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/distribution/health:go_default_library"],
 )
 

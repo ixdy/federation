@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "simple",
     importpath = "github.com/prometheus/client_golang/examples/simple",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

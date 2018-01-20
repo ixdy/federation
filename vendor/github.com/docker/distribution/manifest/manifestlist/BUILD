@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["manifestlist_test.go"],
     importpath = "github.com/docker/distribution/manifest/manifestlist",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/distribution:go_default_library"],
 )
 

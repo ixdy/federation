@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["golden_test.go"],
     importpath = "github.com/golang/protobuf/proto/testdata",
-    library = ":go_default_library",
 )
 
 filegroup(

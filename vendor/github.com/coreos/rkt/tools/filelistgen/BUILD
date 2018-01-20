@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "filelistgen",
     importpath = "github.com/coreos/rkt/tools/filelistgen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

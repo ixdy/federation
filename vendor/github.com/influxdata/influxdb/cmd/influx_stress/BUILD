@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "influx_stress",
     importpath = "github.com/influxdata/influxdb/cmd/influx_stress",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

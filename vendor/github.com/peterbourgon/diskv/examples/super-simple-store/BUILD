@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "super-simple-store",
     importpath = "github.com/peterbourgon/diskv/examples/super-simple-store",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

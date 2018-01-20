@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["conntest_test.go"],
     importpath = "golang.org/x/net/nettest",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/net/internal/nettest:go_default_library"],
 )
 

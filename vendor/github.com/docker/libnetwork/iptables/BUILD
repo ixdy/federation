@@ -23,7 +23,6 @@ go_test(
         "iptables_test.go",
     ],
     importpath = "github.com/docker/libnetwork/iptables",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/libnetwork/testutils:go_default_library"],
 )
 

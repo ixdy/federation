@@ -16,7 +16,6 @@ go_test(
         "util_test.go",
     ],
     importpath = "k8s.io/kubernetes/pkg/controller/bootstrap",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/davecgh/go-spew/spew:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["pools_test.go"],
     importpath = "github.com/docker/docker/pkg/pools",
-    library = ":go_default_library",
 )
 
 filegroup(

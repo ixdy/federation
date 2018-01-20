@@ -13,7 +13,6 @@ go_library(
 go_binary(
     name = "goyacc",
     importpath = "golang.org/x/tools/cmd/goyacc",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

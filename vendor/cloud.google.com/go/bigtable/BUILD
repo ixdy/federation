@@ -38,7 +38,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "cloud.google.com/go/bigtable",
-    library = ":go_default_library",
     deps = [
         "//vendor/cloud.google.com/go/bigtable/bttest:go_default_library",
         "//vendor/github.com/golang/protobuf/proto:go_default_library",

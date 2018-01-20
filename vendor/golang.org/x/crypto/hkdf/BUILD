@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["hkdf_test.go"],
     importpath = "golang.org/x/crypto/hkdf",
-    library = ":go_default_library",
 )
 
 go_test(

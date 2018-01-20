@@ -47,7 +47,6 @@ go_library(
 go_binary(
     name = "examples",
     importpath = "google.golang.org/api/examples",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

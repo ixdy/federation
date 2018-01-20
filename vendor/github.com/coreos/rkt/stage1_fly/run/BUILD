@@ -26,7 +26,6 @@ go_library(
 go_binary(
     name = "run",
     importpath = "github.com/coreos/rkt/stage1_fly/run",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

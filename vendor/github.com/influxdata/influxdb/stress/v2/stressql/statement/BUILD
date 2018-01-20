@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["parser_test.go"],
     importpath = "github.com/influxdata/influxdb/stress/v2/stressql/statement",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/influxdata/influxdb/stress/v2/statement:go_default_library"],
 )
 

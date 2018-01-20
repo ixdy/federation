@@ -23,7 +23,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "golang.org/x/tools/go/internal/gccgoimporter",
-    library = ":go_default_library",
 )
 
 filegroup(

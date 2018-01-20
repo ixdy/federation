@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["session_test.go"],
     importpath = "github.com/docker/distribution/registry/client/auth",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/registry/client/auth/challenge:go_default_library",
         "//vendor/github.com/docker/distribution/registry/client/transport:go_default_library",

@@ -28,7 +28,6 @@ go_test(
         "required_test.go",
     ],
     importpath = "github.com/mailru/easyjson/tests",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/mailru/easyjson:go_default_library",
         "//vendor/github.com/mailru/easyjson/jlexer:go_default_library",

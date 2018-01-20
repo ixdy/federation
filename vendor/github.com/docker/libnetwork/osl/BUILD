@@ -49,7 +49,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/libnetwork/osl",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/reexec:go_default_library",
         "//vendor/github.com/docker/libnetwork/ns:go_default_library",

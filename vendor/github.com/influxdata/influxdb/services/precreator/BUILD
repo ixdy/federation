@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["service_test.go"],
     importpath = "github.com/influxdata/influxdb/services/precreator",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/influxdata/influxdb/toml:go_default_library"],
 )
 

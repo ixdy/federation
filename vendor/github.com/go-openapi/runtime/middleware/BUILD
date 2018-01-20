@@ -52,7 +52,6 @@ go_test(
         "validation_test.go",
     ],
     importpath = "github.com/go-openapi/runtime/middleware",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/go-openapi/analysis:go_default_library",
         "//vendor/github.com/go-openapi/errors:go_default_library",

@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "stringer",
     importpath = "golang.org/x/tools/cmd/stringer",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -26,7 +25,6 @@ go_test(
         "util_test.go",
     ],
     importpath = "golang.org/x/tools/cmd/stringer",
-    library = ":go_default_library",
 )
 
 filegroup(

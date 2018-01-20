@@ -14,7 +14,6 @@ go_test(
         "main_test.go",
     ],
     importpath = "github.com/coreos/etcd/client/integration",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/etcd/client:go_default_library",
         "//vendor/github.com/coreos/etcd/integration:go_default_library",

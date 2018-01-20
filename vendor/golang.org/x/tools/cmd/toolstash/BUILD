@@ -13,7 +13,6 @@ go_library(
 go_binary(
     name = "toolstash",
     importpath = "golang.org/x/tools/cmd/toolstash",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

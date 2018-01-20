@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "quickrm",
     importpath = "github.com/coreos/rkt/tools/quickrm",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -18,7 +18,6 @@ go_test(
         "utils_test.go",
     ],
     importpath = "github.com/opencontainers/runc/libcontainer/integration",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/opencontainers/runc/libcontainer:go_default_library",
         "//vendor/github.com/opencontainers/runc/libcontainer/cgroups/systemd:go_default_library",

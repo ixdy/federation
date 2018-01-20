@@ -19,7 +19,6 @@ go_test(
         "plural_test.go",
     ],
     importpath = "golang.org/x/text/feature/plural",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/text/language:go_default_library"],
 )
 

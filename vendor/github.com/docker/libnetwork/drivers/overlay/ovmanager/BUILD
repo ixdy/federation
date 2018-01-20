@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["ovmanager_test.go"],
     importpath = "github.com/docker/libnetwork/drivers/overlay/ovmanager",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/libnetwork/driverapi:go_default_library",
         "//vendor/github.com/docker/libnetwork/idm:go_default_library",

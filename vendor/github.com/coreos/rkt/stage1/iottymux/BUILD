@@ -25,7 +25,6 @@ go_library(
 go_binary(
     name = "iottymux",
     importpath = "github.com/coreos/rkt/stage1/iottymux",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

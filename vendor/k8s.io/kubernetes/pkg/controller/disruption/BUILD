@@ -46,7 +46,6 @@ go_test(
     name = "go_default_test",
     srcs = ["disruption_test.go"],
     importpath = "k8s.io/kubernetes/pkg/controller/disruption",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/Azure/go-autorest/autorest/to:go_default_library",
         "//vendor/k8s.io/api/apps/v1beta1:go_default_library",

@@ -33,7 +33,6 @@ go_test(
         "timestamp_test.go",
     ],
     importpath = "github.com/gogo/protobuf/types",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gogo/protobuf/proto:go_default_library",
         "//vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor:go_default_library",

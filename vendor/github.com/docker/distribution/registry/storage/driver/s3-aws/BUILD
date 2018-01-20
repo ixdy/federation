@@ -31,7 +31,6 @@ go_test(
     name = "go_default_test",
     srcs = ["s3_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/driver/s3-aws",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/service/s3:go_default_library",

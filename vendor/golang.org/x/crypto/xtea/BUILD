@@ -14,7 +14,6 @@ go_test(
     name = "go_default_test",
     srcs = ["xtea_test.go"],
     importpath = "golang.org/x/crypto/xtea",
-    library = ":go_default_library",
 )
 
 filegroup(

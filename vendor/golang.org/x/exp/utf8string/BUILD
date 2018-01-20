@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["string_test.go"],
     importpath = "golang.org/x/exp/utf8string",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -67,7 +67,6 @@ go_test(
         "staticpods_test.go",
     ],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/upgrade",
-    library = ":go_default_library",
     deps = [
         "//vendor/k8s.io/apimachinery/pkg/runtime:go_default_library",
         "//vendor/k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm:go_default_library",

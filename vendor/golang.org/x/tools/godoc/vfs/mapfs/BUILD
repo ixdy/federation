@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["mapfs_test.go"],
     importpath = "golang.org/x/tools/godoc/vfs/mapfs",
-    library = ":go_default_library",
 )
 
 filegroup(

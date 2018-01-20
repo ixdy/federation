@@ -23,7 +23,6 @@ go_test(
         "sign_url_test.go",
     ],
     importpath = "github.com/aws/aws-sdk-go/service/cloudfront/sign",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/stretchr/testify/assert:go_default_library"],
 )
 

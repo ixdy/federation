@@ -43,7 +43,6 @@ go_test(
         "wait_test.go",
     ],
     importpath = "github.com/influxdata/influxdb/stress/v2/statement",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/influxdata/influxdb/stress/v2/stress_client:go_default_library"],
 )
 

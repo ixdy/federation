@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "enter",
     importpath = "github.com/coreos/rkt/tests/stub-stage1/enter",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

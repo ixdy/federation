@@ -28,7 +28,6 @@ go_library(
 go_binary(
     name = "osd",
     importpath = "github.com/libopenstorage/openstorage/cmd/osd",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

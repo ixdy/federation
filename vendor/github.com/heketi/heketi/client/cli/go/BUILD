@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "go",
     importpath = "github.com/heketi/heketi/client/cli/go",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

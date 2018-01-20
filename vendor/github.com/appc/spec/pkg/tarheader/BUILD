@@ -34,7 +34,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/appc/spec/pkg/tarheader",
-    library = ":go_default_library",
 )
 
 filegroup(

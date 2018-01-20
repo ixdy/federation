@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "helloworld",
     importpath = "cloud.google.com/go/examples/bigtable/helloworld",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

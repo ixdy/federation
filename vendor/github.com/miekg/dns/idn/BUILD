@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["punycode_test.go"],
     importpath = "github.com/miekg/dns/idn",
-    library = ":go_default_library",
 )
 
 go_test(

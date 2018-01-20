@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["pbkdf2_test.go"],
     importpath = "golang.org/x/crypto/pbkdf2",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["rktflag_test.go"],
     importpath = "github.com/coreos/rkt/pkg/flag",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/spf13/pflag:go_default_library"],
 )
 

@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "scantest",
     importpath = "cloud.google.com/go/bigtable/cmd/scantest",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

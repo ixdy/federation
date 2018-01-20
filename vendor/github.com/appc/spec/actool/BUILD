@@ -25,7 +25,6 @@ go_library(
 go_binary(
     name = "actool",
     importpath = "github.com/appc/spec/actool",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

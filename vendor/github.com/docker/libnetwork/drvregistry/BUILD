@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["drvregistry_test.go"],
     importpath = "github.com/docker/libnetwork/drvregistry",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/libnetwork/datastore:go_default_library",
         "//vendor/github.com/docker/libnetwork/discoverapi:go_default_library",

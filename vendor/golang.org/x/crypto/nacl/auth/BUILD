@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["auth_test.go"],
     importpath = "golang.org/x/crypto/nacl/auth",
-    library = ":go_default_library",
 )
 
 go_test(

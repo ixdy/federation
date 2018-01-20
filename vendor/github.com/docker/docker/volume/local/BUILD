@@ -29,7 +29,6 @@ go_test(
     name = "go_default_test",
     srcs = ["local_test.go"],
     importpath = "github.com/docker/docker/volume/local",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/idtools:go_default_library",
         "//vendor/github.com/docker/docker/pkg/mount:go_default_library",

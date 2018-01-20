@@ -28,7 +28,6 @@ go_test(
     name = "go_default_test",
     srcs = ["address_test.go"],
     importpath = "github.com/miekg/coredns/core/dnsserver",
-    library = ":go_default_library",
 )
 
 filegroup(

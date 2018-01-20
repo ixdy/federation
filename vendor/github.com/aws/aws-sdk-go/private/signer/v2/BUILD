@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["v2_test.go"],
     importpath = "github.com/aws/aws-sdk-go/private/signer/v2",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/aws/credentials:go_default_library",

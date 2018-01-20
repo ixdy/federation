@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["checks_test.go"],
     importpath = "github.com/docker/distribution/health/checks",
-    library = ":go_default_library",
 )
 
 filegroup(

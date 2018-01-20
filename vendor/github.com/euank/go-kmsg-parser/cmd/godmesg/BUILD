@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "godmesg",
     importpath = "github.com/euank/go-kmsg-parser/cmd/godmesg",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

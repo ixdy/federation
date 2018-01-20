@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["cmdutil_test.go"],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util",
-    library = ":go_default_library",
 )
 
 filegroup(

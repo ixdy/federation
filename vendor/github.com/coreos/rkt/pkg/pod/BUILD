@@ -32,7 +32,6 @@ go_test(
         "wait_test.go",
     ],
     importpath = "github.com/coreos/rkt/pkg/pod",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/appc/spec/schema/types:go_default_library",
         "//vendor/github.com/coreos/rkt/pkg/lock:go_default_library",

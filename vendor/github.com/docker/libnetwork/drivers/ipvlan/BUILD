@@ -37,7 +37,6 @@ go_test(
         "ipvlan_test.go",
     ],
     importpath = "github.com/docker/libnetwork/drivers/ipvlan",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/plugingetter:go_default_library",
         "//vendor/github.com/docker/libnetwork/driverapi:go_default_library",

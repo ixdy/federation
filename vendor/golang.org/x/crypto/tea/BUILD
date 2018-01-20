@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tea_test.go"],
     importpath = "golang.org/x/crypto/tea",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -24,7 +24,6 @@ go_test(
     name = "go_default_test",
     srcs = ["fileutil_test.go"],
     importpath = "github.com/coreos/rkt/pkg/fileutil",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/coreos/rkt/pkg/user:go_default_library"],
 )
 

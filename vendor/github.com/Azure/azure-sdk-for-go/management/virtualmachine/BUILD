@@ -22,7 +22,6 @@ go_test(
         "resourceextensions_test.go",
     ],
     importpath = "github.com/Azure/azure-sdk-for-go/management/virtualmachine",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/Azure/azure-sdk-for-go/management/testutils:go_default_library"],
 )
 

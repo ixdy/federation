@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["healthz_test.go"],
     importpath = "github.com/google/cadvisor/integration/tests/healthz",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/google/cadvisor/integration/framework:go_default_library"],
 )
 

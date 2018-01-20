@@ -25,7 +25,6 @@ go_test(
     name = "go_default_test",
     srcs = ["allocator_test.go"],
     importpath = "github.com/docker/libnetwork/ipam",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/libkv/store:go_default_library",
         "//vendor/github.com/docker/libkv/store/boltdb:go_default_library",

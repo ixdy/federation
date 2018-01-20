@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "implements-json",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/implements-json",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

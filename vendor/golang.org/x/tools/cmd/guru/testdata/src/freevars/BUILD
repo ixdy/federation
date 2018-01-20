@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "freevars",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/freevars",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -34,7 +34,6 @@ go_test(
         "wildcard_test.go",
     ],
     importpath = "github.com/miekg/coredns/test",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/miekg/coredns/middleware/cache:go_default_library",
         "//vendor/github.com/miekg/coredns/middleware/metrics:go_default_library",

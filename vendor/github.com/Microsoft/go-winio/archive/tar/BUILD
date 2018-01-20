@@ -30,7 +30,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "github.com/Microsoft/go-winio/archive/tar",
-    library = ":go_default_library",
 )
 
 go_test(

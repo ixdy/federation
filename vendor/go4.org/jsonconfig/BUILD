@@ -19,7 +19,6 @@ go_test(
     srcs = ["jsonconfig_test.go"],
     data = glob(["testdata/**"]),
     importpath = "go4.org/jsonconfig",
-    library = ":go_default_library",
 )
 
 filegroup(

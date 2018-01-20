@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["helpers_test.go"],
     importpath = "github.com/spf13/cobra/cobra/cmd",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tail_test.go"],
     importpath = "github.com/google/cadvisor/utils/tail",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/stretchr/testify/assert:go_default_library"],
 )
 

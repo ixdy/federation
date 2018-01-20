@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["once_test.go"],
     importpath = "go4.org/syncutil",
-    library = ":go_default_library",
 )
 
 go_test(

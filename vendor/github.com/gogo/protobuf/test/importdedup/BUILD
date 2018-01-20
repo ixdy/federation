@@ -22,7 +22,6 @@ go_test(
     name = "go_default_test",
     srcs = ["importdedup_test.go"],
     importpath = "github.com/gogo/protobuf/test/importdedup",
-    library = ":go_default_library",
 )
 
 filegroup(

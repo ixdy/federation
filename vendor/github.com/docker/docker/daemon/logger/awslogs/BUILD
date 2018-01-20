@@ -28,7 +28,6 @@ go_test(
         "cwlogsiface_mock_test.go",
     ],
     importpath = "github.com/docker/docker/daemon/logger/awslogs",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/aws/awserr:go_default_library",

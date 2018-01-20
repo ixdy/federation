@@ -23,7 +23,6 @@ go_library(
 go_binary(
     name = "generate-gnostic",
     importpath = "github.com/googleapis/gnostic/generate-gnostic",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -31,7 +30,6 @@ go_test(
     name = "go_default_test",
     srcs = ["generate-extension_test.go"],
     importpath = "github.com/googleapis/gnostic/generate-gnostic",
-    library = ":go_default_library",
 )
 
 filegroup(

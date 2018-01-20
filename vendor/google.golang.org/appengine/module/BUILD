@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["module_test.go"],
     importpath = "google.golang.org/appengine/module",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/protobuf/proto:go_default_library",
         "//vendor/google.golang.org/appengine/internal/aetesting:go_default_library",

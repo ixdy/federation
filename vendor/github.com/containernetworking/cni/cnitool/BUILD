@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "cnitool",
     importpath = "github.com/containernetworking/cni/cnitool",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

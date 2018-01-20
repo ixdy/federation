@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["gcs_test.go"],
     importpath = "go4.org/wkfs/gcs",
-    library = ":go_default_library",
     deps = [
         "//vendor/go4.org/wkfs:go_default_library",
         "//vendor/golang.org/x/net/context:go_default_library",

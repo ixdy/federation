@@ -31,7 +31,6 @@ go_test(
         "setup_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware/log",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/mholt/caddy:go_default_library",
         "//vendor/github.com/miekg/coredns/middleware/pkg/dnsrecorder:go_default_library",

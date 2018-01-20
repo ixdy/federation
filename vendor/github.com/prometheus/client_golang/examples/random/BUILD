@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "random",
     importpath = "github.com/prometheus/client_golang/examples/random",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -24,7 +24,6 @@ go_test(
         "urls_test.go",
     ],
     importpath = "github.com/coreos/etcd/pkg/flags",
-    library = ":go_default_library",
 )
 
 filegroup(

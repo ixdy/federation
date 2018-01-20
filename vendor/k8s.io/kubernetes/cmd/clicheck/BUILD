@@ -9,7 +9,6 @@ load(
 go_binary(
     name = "clicheck",
     importpath = "k8s.io/kubernetes/cmd/clicheck",
-    library = ":go_default_library",
 )
 
 go_library(

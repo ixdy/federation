@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["chainid_test.go"],
     importpath = "github.com/opencontainers/image-spec/identity",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/opencontainers/go-digest:go_default_library"],
 )
 

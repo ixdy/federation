@@ -28,7 +28,6 @@ go_test(
     name = "go_default_test",
     srcs = ["unmarshal_error_leak_test.go"],
     importpath = "github.com/aws/aws-sdk-go/service/simpledb",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws/request:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/awstesting:go_default_library",

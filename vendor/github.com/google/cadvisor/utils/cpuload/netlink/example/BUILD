@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "example",
     importpath = "github.com/google/cadvisor/utils/cpuload/netlink/example",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

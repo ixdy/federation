@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "validate",
     importpath = "github.com/Microsoft/go-winio/wim/validate",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

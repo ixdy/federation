@@ -42,7 +42,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/coreos/rkt/common",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/containernetworking/cni/pkg/types:go_default_library"],
 )
 

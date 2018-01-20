@@ -24,7 +24,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tree_test.go"],
     importpath = "github.com/coreos/rkt/store/treestore",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/rkt/pkg/aci:go_default_library",
         "//vendor/github.com/coreos/rkt/pkg/aci/acitest:go_default_library",

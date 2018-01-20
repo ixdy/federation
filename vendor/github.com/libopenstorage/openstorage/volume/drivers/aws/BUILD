@@ -29,7 +29,6 @@ go_test(
     name = "go_default_test",
     srcs = ["aws_test.go"],
     importpath = "github.com/libopenstorage/openstorage/volume/drivers/aws",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws/credentials:go_default_library",
         "//vendor/github.com/libopenstorage/openstorage/api:go_default_library",

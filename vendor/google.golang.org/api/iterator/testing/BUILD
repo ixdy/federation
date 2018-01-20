@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["testing_test.go"],
     importpath = "google.golang.org/api/iterator/testing",
-    library = ":go_default_library",
 )
 
 filegroup(

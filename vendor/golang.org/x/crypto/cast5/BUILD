@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["cast5_test.go"],
     importpath = "golang.org/x/crypto/cast5",
-    library = ":go_default_library",
 )
 
 filegroup(

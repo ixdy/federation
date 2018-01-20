@@ -24,7 +24,6 @@ go_test(
     name = "go_default_test",
     srcs = ["discovery_test.go"],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/discovery",
-    library = ":go_default_library",
     deps = ["//vendor/k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm:go_default_library"],
 )
 

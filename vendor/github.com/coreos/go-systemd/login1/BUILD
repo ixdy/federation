@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["dbus_test.go"],
     importpath = "github.com/coreos/go-systemd/login1",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "usercounter",
     importpath = "cloud.google.com/go/examples/bigtable/usercounter",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

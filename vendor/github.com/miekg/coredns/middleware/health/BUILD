@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["health_test.go"],
     importpath = "github.com/miekg/coredns/middleware/health",
-    library = ":go_default_library",
 )
 
 filegroup(

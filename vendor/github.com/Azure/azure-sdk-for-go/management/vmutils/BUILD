@@ -30,7 +30,6 @@ go_test(
         "vmutils_test.go",
     ],
     importpath = "github.com/Azure/azure-sdk-for-go/management/vmutils",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/Azure/azure-sdk-for-go/management:go_default_library",
         "//vendor/github.com/Azure/azure-sdk-for-go/management/hostedservice:go_default_library",

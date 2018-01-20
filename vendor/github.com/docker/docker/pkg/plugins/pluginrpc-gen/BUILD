@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "pluginrpc-gen",
     importpath = "github.com/docker/docker/pkg/plugins/pluginrpc-gen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -22,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["parser_test.go"],
     importpath = "github.com/docker/docker/pkg/plugins/pluginrpc-gen",
-    library = ":go_default_library",
 )
 
 filegroup(

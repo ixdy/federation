@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["scrypt_test.go"],
     importpath = "golang.org/x/crypto/scrypt",
-    library = ":go_default_library",
 )
 
 filegroup(

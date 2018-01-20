@@ -21,7 +21,6 @@ go_test(
         "streamwriter_test.go",
     ],
     importpath = "github.com/docker/docker/pkg/streamformatter",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/jsonmessage:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

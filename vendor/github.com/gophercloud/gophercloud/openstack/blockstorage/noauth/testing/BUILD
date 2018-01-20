@@ -14,7 +14,6 @@ go_test(
     name = "go_default_test",
     srcs = ["requests_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/blockstorage/noauth/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/blockstorage/noauth:go_default_library",

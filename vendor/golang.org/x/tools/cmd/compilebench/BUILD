@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "compilebench",
     importpath = "golang.org/x/tools/cmd/compilebench",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

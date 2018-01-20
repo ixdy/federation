@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["progressreader_test.go"],
     importpath = "github.com/docker/docker/pkg/progress",
-    library = ":go_default_library",
 )
 
 filegroup(

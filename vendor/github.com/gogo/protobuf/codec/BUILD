@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["codec_test.go"],
     importpath = "github.com/gogo/protobuf/codec",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/gogo/protobuf/test:go_default_library"],
 )
 

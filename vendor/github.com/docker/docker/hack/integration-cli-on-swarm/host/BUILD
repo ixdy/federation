@@ -26,7 +26,6 @@ go_library(
 go_binary(
     name = "host",
     importpath = "github.com/docker/docker/hack/integration-cli-on-swarm/host",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -34,7 +33,6 @@ go_test(
     name = "go_default_test",
     srcs = ["enumerate_test.go"],
     importpath = "github.com/docker/docker/hack/integration-cli-on-swarm/host",
-    library = ":go_default_library",
 )
 
 filegroup(

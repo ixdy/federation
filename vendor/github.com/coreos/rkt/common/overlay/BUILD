@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["overlay_test.go"],
     importpath = "github.com/coreos/rkt/common/overlay",
-    library = ":go_default_library",
 )
 
 filegroup(

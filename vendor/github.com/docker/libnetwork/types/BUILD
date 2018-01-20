@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["types_test.go"],
     importpath = "github.com/docker/libnetwork/types",
-    library = ":go_default_library",
 )
 
 filegroup(

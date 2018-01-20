@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "benchcmp",
     importpath = "golang.org/x/tools/cmd/benchcmp",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -26,7 +25,6 @@ go_test(
         "compare_test.go",
     ],
     importpath = "golang.org/x/tools/cmd/benchcmp",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/tools/benchmark/parse:go_default_library"],
 )
 

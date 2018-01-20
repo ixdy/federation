@@ -19,7 +19,6 @@ go_binary(
         ],
     }),
     importpath = "k8s.io/kubernetes/cmd/kubectl",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
     x_defs = version_x_defs(),
 )

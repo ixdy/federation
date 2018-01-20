@@ -24,7 +24,6 @@ go_test(
         "watch_test.go",
     ],
     importpath = "github.com/coreos/etcd/clientv3/integration",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/etcd/clientv3:go_default_library",
         "//vendor/github.com/coreos/etcd/clientv3/concurrency:go_default_library",

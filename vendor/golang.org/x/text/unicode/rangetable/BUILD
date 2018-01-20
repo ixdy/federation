@@ -18,7 +18,6 @@ go_test(
         "rangetable_test.go",
     ],
     importpath = "golang.org/x/text/unicode/rangetable",
-    library = ":go_default_library",
 )
 
 filegroup(

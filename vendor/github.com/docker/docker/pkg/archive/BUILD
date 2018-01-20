@@ -70,7 +70,6 @@ go_test(
     }),
     data = glob(["testdata/**"]),
     importpath = "github.com/docker/docker/pkg/archive",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/ioutils:go_default_library",
         "//vendor/github.com/docker/docker/pkg/system:go_default_library",

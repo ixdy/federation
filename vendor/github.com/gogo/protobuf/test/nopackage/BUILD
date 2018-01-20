@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["nopackage_test.go"],
     importpath = "github.com/gogo/protobuf/test/nopackage",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -29,7 +29,6 @@ go_library(
 go_binary(
     name = "raftexample",
     importpath = "github.com/coreos/etcd/contrib/raftexample",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -40,7 +39,6 @@ go_test(
         "raftexample_test.go",
     ],
     importpath = "github.com/coreos/etcd/contrib/raftexample",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/coreos/etcd/raft/raftpb:go_default_library"],
 )
 

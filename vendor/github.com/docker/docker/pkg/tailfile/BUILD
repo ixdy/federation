@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tailfile_test.go"],
     importpath = "github.com/docker/docker/pkg/tailfile",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["redis_test.go"],
     importpath = "github.com/gregjones/httpcache/redis",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/garyburd/redigo/redis:go_default_library"],
 )
 

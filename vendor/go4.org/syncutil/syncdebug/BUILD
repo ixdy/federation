@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["syncdebug_test.go"],
     importpath = "go4.org/syncutil/syncdebug",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "greeter_server",
     importpath = "google.golang.org/grpc/examples/helloworld/greeter_server",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

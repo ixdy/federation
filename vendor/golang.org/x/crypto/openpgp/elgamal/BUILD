@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["elgamal_test.go"],
     importpath = "golang.org/x/crypto/openpgp/elgamal",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "mockgen",
     importpath = "github.com/golang/mock/mockgen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

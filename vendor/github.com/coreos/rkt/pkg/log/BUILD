@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["log_test.go"],
     importpath = "github.com/coreos/rkt/pkg/log",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/hashicorp/errwrap:go_default_library"],
 )
 

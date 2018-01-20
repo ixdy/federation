@@ -62,7 +62,6 @@ go_test(
         "hmac_test.go",
     ],
     importpath = "github.com/docker/distribution/registry/handlers",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution:go_default_library",
         "//vendor/github.com/docker/distribution/configuration:go_default_library",

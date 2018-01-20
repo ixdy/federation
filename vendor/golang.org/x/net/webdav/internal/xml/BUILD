@@ -21,7 +21,6 @@ go_test(
         "xml_test.go",
     ],
     importpath = "golang.org/x/net/webdav/internal/xml",
-    library = ":go_default_library",
 )
 
 go_test(

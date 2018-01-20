@@ -19,7 +19,6 @@ go_library(
 go_binary(
     name = "petstore-builder",
     importpath = "github.com/googleapis/gnostic/apps/petstore-builder",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

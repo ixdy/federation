@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["gcimporter_test.go"],
     importpath = "golang.org/x/tools/go/gcimporter15",
-    library = ":go_default_library",
 )
 
 go_test(

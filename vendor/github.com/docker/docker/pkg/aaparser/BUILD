@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["aaparser_test.go"],
     importpath = "github.com/docker/docker/pkg/aaparser",
-    library = ":go_default_library",
 )
 
 filegroup(

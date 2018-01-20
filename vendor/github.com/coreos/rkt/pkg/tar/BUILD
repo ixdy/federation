@@ -22,7 +22,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tar_test.go"],
     importpath = "github.com/coreos/rkt/pkg/tar",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/rkt/pkg/multicall:go_default_library",
         "//vendor/github.com/coreos/rkt/pkg/sys:go_default_library",

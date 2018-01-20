@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["secflags_test.go"],
     importpath = "github.com/coreos/rkt/rkt/flag",
-    library = ":go_default_library",
 )
 
 filegroup(

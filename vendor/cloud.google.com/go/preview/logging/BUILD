@@ -37,7 +37,6 @@ go_test(
         "unique_test.go",
     ],
     importpath = "cloud.google.com/go/preview/logging",
-    library = ":go_default_library",
     deps = [
         "//vendor/cloud.google.com/go/internal/bundler:go_default_library",
         "//vendor/cloud.google.com/go/internal/testutil:go_default_library",

@@ -18,7 +18,6 @@ go_library(
 go_binary(
     name = "client",
     importpath = "google.golang.org/grpc/interop/client",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

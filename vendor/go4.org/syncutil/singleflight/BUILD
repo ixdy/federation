@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["singleflight_test.go"],
     importpath = "go4.org/syncutil/singleflight",
-    library = ":go_default_library",
 )
 
 filegroup(

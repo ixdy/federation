@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["memory_test.go"],
     importpath = "github.com/docker/distribution/registry/storage/cache/memory",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/distribution/registry/storage/cache/cachecheck:go_default_library"],
 )
 

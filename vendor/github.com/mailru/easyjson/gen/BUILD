@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["generator_test.go"],
     importpath = "github.com/mailru/easyjson/gen",
-    library = ":go_default_library",
 )
 
 filegroup(

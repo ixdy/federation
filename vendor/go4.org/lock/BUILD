@@ -23,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["lock_test.go"],
     importpath = "go4.org/lock",
-    library = ":go_default_library",
 )
 
 filegroup(

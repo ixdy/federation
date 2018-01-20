@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["heketitest_test.go"],
     importpath = "github.com/heketi/heketi/pkg/heketitest",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/heketi/heketi/client/api/go-client:go_default_library",
         "//vendor/github.com/heketi/tests:go_default_library",

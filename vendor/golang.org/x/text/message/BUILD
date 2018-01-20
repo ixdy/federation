@@ -24,7 +24,6 @@ go_test(
         "message_test.go",
     ],
     importpath = "golang.org/x/text/message",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/text/internal:go_default_library",
         "//vendor/golang.org/x/text/internal/format:go_default_library",

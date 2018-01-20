@@ -22,7 +22,6 @@ go_test(
     name = "go_default_test",
     srcs = ["service_test.go"],
     importpath = "github.com/influxdata/influxdb/services/opentsdb",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/davecgh/go-spew/spew:go_default_library",
         "//vendor/github.com/influxdata/influxdb/internal:go_default_library",

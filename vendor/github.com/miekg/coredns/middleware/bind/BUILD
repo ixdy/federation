@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["bind_test.go"],
     importpath = "github.com/miekg/coredns/middleware/bind",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/mholt/caddy:go_default_library",
         "//vendor/github.com/miekg/coredns/core/dnsserver:go_default_library",

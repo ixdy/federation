@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["socket_test.go"],
     importpath = "golang.org/x/tools/playground/socket",
-    library = ":go_default_library",
 )
 
 filegroup(

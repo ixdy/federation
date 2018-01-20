@@ -35,7 +35,6 @@ go_test(
         "store_test.go",
     ],
     importpath = "github.com/coreos/rkt/store/imagestore",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/appc/spec/schema/types:go_default_library",
         "//vendor/github.com/coreos/rkt/pkg/aci:go_default_library",

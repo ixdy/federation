@@ -56,7 +56,6 @@ go_test(
         "mount_test.go",
     ],
     importpath = "github.com/docker/docker/layer",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/daemon/graphdriver:go_default_library",
         "//vendor/github.com/docker/docker/daemon/graphdriver/vfs:go_default_library",

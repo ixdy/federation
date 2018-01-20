@@ -13,7 +13,6 @@ go_test(
         "versions_test.go",
     ],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/addons/dns",
-    library = ":go_default_library",
     deps = [
         "//vendor/k8s.io/apimachinery/pkg/api/errors:go_default_library",
         "//vendor/k8s.io/apimachinery/pkg/runtime:go_default_library",

@@ -37,7 +37,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/docker/runconfig",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types/container:go_default_library",
         "//vendor/github.com/docker/docker/api/types/network:go_default_library",

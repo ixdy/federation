@@ -18,7 +18,6 @@ go_test(
         "skel_test.go",
     ],
     importpath = "github.com/containernetworking/cni/pkg/skel",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/containernetworking/cni/pkg/types:go_default_library",
         "//vendor/github.com/containernetworking/cni/pkg/version:go_default_library",

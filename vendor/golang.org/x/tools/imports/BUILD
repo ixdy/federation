@@ -32,7 +32,6 @@ go_test(
         "fix_test.go",
     ],
     importpath = "golang.org/x/tools/imports",
-    library = ":go_default_library",
 )
 
 filegroup(

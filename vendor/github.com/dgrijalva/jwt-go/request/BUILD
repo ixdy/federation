@@ -21,7 +21,6 @@ go_test(
         "request_test.go",
     ],
     importpath = "github.com/dgrijalva/jwt-go/request",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/dgrijalva/jwt-go:go_default_library",
         "//vendor/github.com/dgrijalva/jwt-go/test:go_default_library",

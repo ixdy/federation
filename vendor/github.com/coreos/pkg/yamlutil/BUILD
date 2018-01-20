@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["yaml_test.go"],
     importpath = "github.com/coreos/pkg/yamlutil",
-    library = ":go_default_library",
 )
 
 filegroup(

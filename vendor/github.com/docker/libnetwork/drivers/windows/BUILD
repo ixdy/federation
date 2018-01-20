@@ -36,7 +36,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/libnetwork/drivers/windows",
-    library = ":go_default_library",
     deps = select({
         "@io_bazel_rules_go//go/platform:windows_amd64": [
             "//vendor/github.com/docker/libnetwork/driverapi:go_default_library",

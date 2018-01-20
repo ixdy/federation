@@ -19,7 +19,6 @@ go_library(
 go_binary(
     name = "ovrouter",
     importpath = "github.com/docker/libnetwork/cmd/ovrouter",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

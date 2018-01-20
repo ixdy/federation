@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["cors_test.go"],
     importpath = "github.com/coreos/etcd/pkg/cors",
-    library = ":go_default_library",
 )
 
 filegroup(

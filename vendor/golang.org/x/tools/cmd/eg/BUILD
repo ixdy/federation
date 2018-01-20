@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "eg",
     importpath = "golang.org/x/tools/cmd/eg",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

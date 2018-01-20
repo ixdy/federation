@@ -54,7 +54,6 @@ go_test(
         "resumablesession_test.go",
     ],
     importpath = "github.com/coreos/rkt/rkt/image",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/coreos/rkt/pkg/distribution:go_default_library"],
 )
 

@@ -74,7 +74,6 @@ go_test(
         "volume_entry_test.go",
     ],
     importpath = "github.com/heketi/heketi/apps/glusterfs",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/boltdb/bolt:go_default_library",
         "//vendor/github.com/gorilla/mux:go_default_library",

@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "example-server",
     importpath = "github.com/grpc-ecosystem/grpc-gateway/examples/server/cmd/example-server",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

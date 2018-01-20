@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["inmem_test.go"],
     importpath = "cloud.google.com/go/bigtable/bttest",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/net/context:go_default_library",
         "//vendor/google.golang.org/genproto/googleapis/bigtable/admin/v2:go_default_library",

@@ -23,7 +23,6 @@ go_test(
         "types_test.go",
     ],
     importpath = "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/httprule",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/glog:go_default_library",
         "//vendor/github.com/grpc-ecosystem/grpc-gateway/utilities:go_default_library",

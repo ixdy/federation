@@ -34,7 +34,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/docker/daemon/logger/journald",
-    library = ":go_default_library",
 )
 
 filegroup(

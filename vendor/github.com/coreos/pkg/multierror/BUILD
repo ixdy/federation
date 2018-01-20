@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["multierror_test.go"],
     importpath = "github.com/coreos/pkg/multierror",
-    library = ":go_default_library",
 )
 
 filegroup(

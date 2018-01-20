@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "datastore",
     importpath = "github.com/emicklei/go-restful/examples/google_app_engine/datastore",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -25,7 +25,6 @@ go_library(
 go_binary(
     name = "worker",
     importpath = "google.golang.org/grpc/benchmark/worker",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

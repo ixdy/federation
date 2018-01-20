@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["alert_kvdb_test.go"],
     importpath = "github.com/libopenstorage/openstorage/alert",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/libopenstorage/openstorage/api:go_default_library",
         "//vendor/github.com/libopenstorage/openstorage/pkg/proto/time:go_default_library",

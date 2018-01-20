@@ -24,7 +24,6 @@ go_test(
         "proxy_test.go",
     ],
     importpath = "github.com/docker/docker/volume/drivers",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/plugins:go_default_library",
         "//vendor/github.com/docker/docker/volume/testutils:go_default_library",

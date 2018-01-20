@@ -70,5 +70,4 @@ go_test(
     name = "go_default_test",
     srcs = ["configurator_test.go"],
     importpath = "k8s.io/kubernetes/plugin/cmd/kube-scheduler/app",
-    library = ":go_default_library",
 )

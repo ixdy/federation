@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "autobahn",
     importpath = "github.com/gorilla/websocket/examples/autobahn",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

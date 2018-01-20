@@ -37,7 +37,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "golang.org/x/net/route",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -28,7 +28,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/coreos/rkt/common/cgroup/v1",
-    library = ":go_default_library",
 )
 
 filegroup(

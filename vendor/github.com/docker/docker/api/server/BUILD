@@ -26,7 +26,6 @@ go_test(
     name = "go_default_test",
     srcs = ["server_test.go"],
     importpath = "github.com/docker/docker/api/server",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api:go_default_library",
         "//vendor/github.com/docker/docker/api/server/httputils:go_default_library",

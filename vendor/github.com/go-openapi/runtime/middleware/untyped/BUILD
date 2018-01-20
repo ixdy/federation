@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["api_test.go"],
     importpath = "github.com/go-openapi/runtime/middleware/untyped",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/go-openapi/analysis:go_default_library",
         "//vendor/github.com/go-openapi/errors:go_default_library",

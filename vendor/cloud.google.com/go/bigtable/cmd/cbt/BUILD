@@ -18,7 +18,6 @@ go_library(
 go_binary(
     name = "cbt",
     importpath = "cloud.google.com/go/bigtable/cmd/cbt",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -26,7 +25,6 @@ go_test(
     name = "go_default_test",
     srcs = ["cbt_test.go"],
     importpath = "cloud.google.com/go/bigtable/cmd/cbt",
-    library = ":go_default_library",
 )
 
 filegroup(

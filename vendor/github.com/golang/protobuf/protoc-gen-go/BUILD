@@ -18,7 +18,6 @@ go_library(
 go_binary(
     name = "protoc-gen-go",
     importpath = "github.com/golang/protobuf/protoc-gen-go",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -42,7 +42,6 @@ go_test(
     name = "go_default_test",
     srcs = ["kubeconfig_test.go"],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubeconfig",
-    library = ":go_default_library",
     deps = [
         "//vendor/k8s.io/client-go/tools/clientcmd:go_default_library",
         "//vendor/k8s.io/client-go/tools/clientcmd/api:go_default_library",

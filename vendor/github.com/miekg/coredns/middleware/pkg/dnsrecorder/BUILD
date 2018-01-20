@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["recorder_test.go"],
     importpath = "github.com/miekg/coredns/middleware/pkg/dnsrecorder",
-    library = ":go_default_library",
 )
 
 filegroup(

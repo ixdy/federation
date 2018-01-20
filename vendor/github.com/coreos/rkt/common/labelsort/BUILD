@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["labelsort_test.go"],
     importpath = "github.com/coreos/rkt/common/labelsort",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/appc/spec/schema/types:go_default_library"],
 )
 

@@ -47,7 +47,6 @@ go_test(
         "pod_test.go",
     ],
     importpath = "github.com/coreos/rkt/stage1/init/common",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/appc/spec/schema:go_default_library",
         "//vendor/github.com/appc/spec/schema/types:go_default_library",

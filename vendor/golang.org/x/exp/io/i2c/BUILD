@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["i2c_test.go"],
     importpath = "golang.org/x/exp/io/i2c",
-    library = ":go_default_library",
 )
 
 go_test(

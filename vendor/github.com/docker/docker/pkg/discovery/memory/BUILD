@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["memory_test.go"],
     importpath = "github.com/docker/docker/pkg/discovery/memory",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/discovery:go_default_library",
         "//vendor/github.com/go-check/check:go_default_library",

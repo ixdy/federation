@@ -19,7 +19,6 @@ go_test(
         "varint_test.go",
     ],
     importpath = "golang.org/x/text/internal/catmsg",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/text/language:go_default_library"],
 )
 

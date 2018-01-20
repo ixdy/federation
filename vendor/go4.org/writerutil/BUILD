@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["writerutil_test.go"],
     importpath = "go4.org/writerutil",
-    library = ":go_default_library",
 )
 
 filegroup(

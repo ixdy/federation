@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["leveldbcache_test.go"],
     importpath = "github.com/gregjones/httpcache/leveldbcache",
-    library = ":go_default_library",
 )
 
 filegroup(

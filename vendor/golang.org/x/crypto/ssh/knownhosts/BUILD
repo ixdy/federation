@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["knownhosts_test.go"],
     importpath = "golang.org/x/crypto/ssh/knownhosts",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/crypto/ssh:go_default_library"],
 )
 

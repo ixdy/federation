@@ -29,7 +29,6 @@ go_test(
         "upload_test.go",
     ],
     importpath = "github.com/docker/docker/distribution/xfer",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution:go_default_library",
         "//vendor/github.com/docker/docker/image:go_default_library",

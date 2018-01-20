@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["network_proxy_test.go"],
     importpath = "github.com/docker/go-connections/proxy",
-    library = ":go_default_library",
 )
 
 filegroup(

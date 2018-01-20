@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "examples",
     importpath = "github.com/blang/semver/examples",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

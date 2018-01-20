@@ -36,7 +36,6 @@ go_test(
         "stdlib_test.go",
     ],
     importpath = "golang.org/x/tools/go/pointer",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/tools/go/buildutil:go_default_library",
         "//vendor/golang.org/x/tools/go/loader:go_default_library",

@@ -106,7 +106,6 @@ go_library(
 go_binary(
     name = "rkt",
     importpath = "github.com/coreos/rkt/rkt",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -120,7 +119,6 @@ go_test(
         "rkt_test.go",
     ],
     importpath = "github.com/coreos/rkt/rkt",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/appc/spec/schema:go_default_library",
         "//vendor/github.com/appc/spec/schema/types:go_default_library",

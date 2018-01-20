@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["resolvconf_test.go"],
     importpath = "github.com/docker/libnetwork/resolvconf",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/ioutils:go_default_library",
         "//vendor/github.com/docker/libnetwork/testutils:go_default_library",

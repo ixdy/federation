@@ -28,7 +28,6 @@ go_test(
         "config_test.go",
     ],
     importpath = "github.com/coreos/rkt/rkt/config",
-    library = ":go_default_library",
 )
 
 filegroup(

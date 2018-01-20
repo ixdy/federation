@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "tip",
     importpath = "golang.org/x/tools/cmd/tip",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -23,7 +22,6 @@ go_test(
     name = "go_default_test",
     srcs = ["tip_test.go"],
     importpath = "golang.org/x/tools/cmd/tip",
-    library = ":go_default_library",
 )
 
 filegroup(

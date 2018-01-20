@@ -85,7 +85,6 @@ go_test(
         "view_test.go",
     ],
     importpath = "github.com/docker/docker/container",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types:go_default_library",
         "//vendor/github.com/docker/docker/api/types/container:go_default_library",

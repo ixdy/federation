@@ -38,7 +38,6 @@ go_test(
         "v3_curl_test.go",
     ],
     importpath = "github.com/coreos/etcd/e2e",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/etcd/clientv3:go_default_library",
         "//vendor/github.com/coreos/etcd/etcdserver:go_default_library",

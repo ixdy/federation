@@ -23,7 +23,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "github.com/docker/docker/pkg/tarsum",
-    library = ":go_default_library",
 )
 
 filegroup(

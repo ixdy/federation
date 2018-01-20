@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["db_test.go"],
     importpath = "github.com/coreos/rkt/store/db",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/coreos/rkt/tests/testutils:go_default_library"],
 )
 

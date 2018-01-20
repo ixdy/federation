@@ -33,7 +33,6 @@ go_test(
     name = "go_default_test",
     srcs = ["pidfile_test.go"],
     importpath = "github.com/docker/docker/pkg/pidfile",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "load",
     importpath = "cloud.google.com/go/examples/bigquery/load",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

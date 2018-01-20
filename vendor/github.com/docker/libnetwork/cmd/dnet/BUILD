@@ -54,7 +54,6 @@ go_library(
 go_binary(
     name = "dnet",
     importpath = "github.com/docker/libnetwork/cmd/dnet",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

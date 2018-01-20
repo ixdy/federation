@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "encode-templates",
     importpath = "github.com/googleapis/gnostic/plugins/gnostic-go-generator/encode-templates",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

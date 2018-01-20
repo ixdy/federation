@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "basic",
     importpath = "github.com/docker/docker/integration-cli/fixtures/plugin/basic",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

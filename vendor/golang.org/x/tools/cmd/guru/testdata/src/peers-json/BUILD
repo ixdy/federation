@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "peers-json",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/peers-json",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

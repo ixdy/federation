@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["unbuffered_test.go"],
     importpath = "github.com/docker/docker/pkg/broadcaster",
-    library = ":go_default_library",
 )
 
 filegroup(

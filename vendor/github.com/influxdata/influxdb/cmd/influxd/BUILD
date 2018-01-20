@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "influxd",
     importpath = "github.com/influxdata/influxdb/cmd/influxd",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

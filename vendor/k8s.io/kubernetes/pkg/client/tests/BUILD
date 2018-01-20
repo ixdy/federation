@@ -15,7 +15,6 @@ go_test(
         "remotecommand_test.go",
     ],
     importpath = "k8s.io/kubernetes/pkg/client/tests",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/stretchr/testify/require:go_default_library",
         "//vendor/k8s.io/api/core/v1:go_default_library",

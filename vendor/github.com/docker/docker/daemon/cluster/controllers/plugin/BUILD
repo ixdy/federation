@@ -23,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["controller_test.go"],
     importpath = "github.com/docker/docker/daemon/cluster/controllers/plugin",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/reference:go_default_library",
         "//vendor/github.com/docker/docker/api/types:go_default_library",

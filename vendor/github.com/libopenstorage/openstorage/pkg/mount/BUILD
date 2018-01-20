@@ -27,7 +27,6 @@ go_test(
     name = "go_default_test",
     srcs = ["mount_test.go"],
     importpath = "github.com/libopenstorage/openstorage/pkg/mount",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/stretchr/testify/require:go_default_library"],
 )
 

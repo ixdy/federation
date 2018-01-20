@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "proxy",
     importpath = "github.com/docker/libnetwork/cmd/proxy",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -24,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["network_proxy_test.go"],
     importpath = "github.com/docker/libnetwork/cmd/proxy",
-    library = ":go_default_library",
 )
 
 filegroup(

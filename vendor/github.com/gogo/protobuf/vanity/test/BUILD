@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["vanity_test.go"],
     importpath = "github.com/gogo/protobuf/vanity/test",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gogo/protobuf/vanity/test/fast:go_default_library",
         "//vendor/github.com/gogo/protobuf/vanity/test/faster:go_default_library",

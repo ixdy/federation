@@ -52,7 +52,6 @@ go_test(
         "value_test.go",
     ],
     importpath = "cloud.google.com/go/bigquery",
-    library = ":go_default_library",
     deps = [
         "//vendor/cloud.google.com/go/internal/testutil:go_default_library",
         "//vendor/golang.org/x/net/context:go_default_library",

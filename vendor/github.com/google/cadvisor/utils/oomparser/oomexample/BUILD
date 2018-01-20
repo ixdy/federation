@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "oomexample",
     importpath = "github.com/google/cadvisor/utils/oomparser/oomexample",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["jsonpb_test.go"],
     importpath = "github.com/gogo/protobuf/jsonpb",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gogo/protobuf/jsonpb/jsonpb_test_proto:go_default_library",
         "//vendor/github.com/gogo/protobuf/proto:go_default_library",

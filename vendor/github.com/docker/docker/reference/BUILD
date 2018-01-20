@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["store_test.go"],
     importpath = "github.com/docker/docker/reference",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/reference:go_default_library",
         "//vendor/github.com/opencontainers/go-digest:go_default_library",

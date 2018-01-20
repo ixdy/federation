@@ -34,7 +34,6 @@ go_test(
     name = "go_default_test",
     srcs = ["settable_test.go"],
     importpath = "github.com/docker/docker/plugin/v2",
-    library = ":go_default_library",
 )
 
 filegroup(

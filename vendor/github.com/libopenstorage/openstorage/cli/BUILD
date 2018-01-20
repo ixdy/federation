@@ -30,7 +30,6 @@ go_test(
     name = "go_default_test",
     srcs = ["cli_test.go"],
     importpath = "github.com/libopenstorage/openstorage/cli",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/libopenstorage/openstorage/api:go_default_library",
         "//vendor/github.com/stretchr/testify/require:go_default_library",

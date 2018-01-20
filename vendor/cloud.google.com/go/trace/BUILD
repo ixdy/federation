@@ -22,7 +22,6 @@ go_test(
     name = "go_default_test",
     srcs = ["trace_test.go"],
     importpath = "cloud.google.com/go/trace",
-    library = ":go_default_library",
     deps = [
         "//vendor/cloud.google.com/go/storage:go_default_library",
         "//vendor/golang.org/x/net/context:go_default_library",

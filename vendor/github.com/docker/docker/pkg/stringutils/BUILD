@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["stringutils_test.go"],
     importpath = "github.com/docker/docker/pkg/stringutils",
-    library = ":go_default_library",
 )
 
 filegroup(

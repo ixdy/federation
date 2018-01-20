@@ -27,7 +27,6 @@ go_test(
     name = "go_default_test",
     srcs = ["nsenter_test.go"],
     importpath = "github.com/opencontainers/runc/libcontainer/nsenter",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/opencontainers/runc/libcontainer:go_default_library",
         "//vendor/github.com/vishvananda/netlink/nl:go_default_library",

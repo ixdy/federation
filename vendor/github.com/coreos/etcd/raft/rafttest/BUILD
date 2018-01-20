@@ -24,7 +24,6 @@ go_test(
         "node_test.go",
     ],
     importpath = "github.com/coreos/etcd/raft/rafttest",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/etcd/raft:go_default_library",
         "//vendor/github.com/coreos/etcd/raft/raftpb:go_default_library",

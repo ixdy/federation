@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["compare_test.go"],
     importpath = "github.com/storageos/go-api/types/versions",
-    library = ":go_default_library",
 )
 
 filegroup(

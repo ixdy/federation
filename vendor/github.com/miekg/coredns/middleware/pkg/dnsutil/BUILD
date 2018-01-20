@@ -20,7 +20,6 @@ go_test(
         "reverse_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware/pkg/dnsutil",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/miekg/dns:go_default_library"],
 )
 

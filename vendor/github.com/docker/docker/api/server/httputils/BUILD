@@ -36,7 +36,6 @@ go_test(
         "httputils_test.go",
     ],
     importpath = "github.com/docker/docker/api/server/httputils",
-    library = ":go_default_library",
 )
 
 filegroup(

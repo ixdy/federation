@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "examples",
     importpath = "github.com/chai2010/gettext-go/examples",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

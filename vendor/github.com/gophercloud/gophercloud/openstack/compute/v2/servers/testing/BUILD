@@ -23,7 +23,6 @@ go_test(
         "results_test.go",
     ],
     importpath = "github.com/gophercloud/gophercloud/openstack/compute/v2/servers/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/availabilityzones:go_default_library",

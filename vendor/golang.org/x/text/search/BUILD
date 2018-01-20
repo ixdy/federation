@@ -20,7 +20,6 @@ go_test(
     name = "go_default_test",
     srcs = ["pattern_test.go"],
     importpath = "golang.org/x/text/search",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/text/language:go_default_library"],
 )
 

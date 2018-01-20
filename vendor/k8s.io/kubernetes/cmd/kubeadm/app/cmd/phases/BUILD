@@ -63,7 +63,6 @@ go_test(
         "kubeconfig_test.go",
     ],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases",
-    library = ":go_default_library",
     deps = [
         "//vendor/k8s.io/client-go/tools/clientcmd:go_default_library",
         "//vendor/k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm:go_default_library",

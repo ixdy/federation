@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["memcache_test.go"],
     importpath = "google.golang.org/appengine/memcache",
-    library = ":go_default_library",
     deps = [
         "//vendor/google.golang.org/appengine:go_default_library",
         "//vendor/google.golang.org/appengine/internal/aetesting:go_default_library",

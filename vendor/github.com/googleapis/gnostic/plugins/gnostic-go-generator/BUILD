@@ -21,7 +21,6 @@ go_library(
 go_binary(
     name = "gnostic-go-generator",
     importpath = "github.com/googleapis/gnostic/plugins/gnostic-go-generator",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

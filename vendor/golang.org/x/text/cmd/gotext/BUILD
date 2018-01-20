@@ -20,7 +20,6 @@ go_library(
 go_binary(
     name = "gotext",
     importpath = "golang.org/x/text/cmd/gotext",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

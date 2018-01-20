@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["client_test.go"],
     importpath = "github.com/google/cadvisor/client",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/google/cadvisor/info/v1:go_default_library",
         "//vendor/github.com/google/cadvisor/info/v1/test:go_default_library",

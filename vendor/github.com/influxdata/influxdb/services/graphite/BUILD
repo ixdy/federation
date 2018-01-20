@@ -23,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["service_test.go"],
     importpath = "github.com/influxdata/influxdb/services/graphite",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/influxdata/influxdb/internal:go_default_library",
         "//vendor/github.com/influxdata/influxdb/models:go_default_library",

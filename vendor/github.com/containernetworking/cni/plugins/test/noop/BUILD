@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "noop",
     importpath = "github.com/containernetworking/cni/plugins/test/noop",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

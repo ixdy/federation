@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "chat",
     importpath = "github.com/gorilla/websocket/examples/chat",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -33,5 +33,4 @@ go_test(
     name = "go_default_test",
     srcs = ["constants_test.go"],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/constants",
-    library = ":go_default_library",
 )

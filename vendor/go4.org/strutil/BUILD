@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["strutil_test.go"],
     importpath = "go4.org/strutil",
-    library = ":go_default_library",
 )
 
 filegroup(

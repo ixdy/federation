@@ -16,7 +16,6 @@ go_binary(
         "-static",
     ],
     importpath = "k8s.io/kubernetes/plugin/cmd/kube-scheduler",
-    library = ":go_default_library",
     x_defs = version_x_defs(),
 )
 

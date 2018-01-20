@@ -24,7 +24,6 @@ go_library(
 go_binary(
     name = "ace",
     importpath = "github.com/appc/spec/ace",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -32,7 +31,6 @@ go_test(
     name = "go_default_test",
     srcs = ["validator_test.go"],
     importpath = "github.com/appc/spec/ace",
-    library = ":go_default_library",
 )
 
 filegroup(

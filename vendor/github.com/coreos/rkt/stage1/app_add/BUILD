@@ -30,7 +30,6 @@ go_library(
 go_binary(
     name = "app_add",
     importpath = "github.com/coreos/rkt/stage1/app_add",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

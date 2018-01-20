@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["bundler_test.go"],
     importpath = "cloud.google.com/go/internal/bundler",
-    library = ":go_default_library",
 )
 
 filegroup(

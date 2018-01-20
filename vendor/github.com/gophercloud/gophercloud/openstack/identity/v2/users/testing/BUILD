@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["requests_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/identity/v2/users/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/identity/v2/users:go_default_library",

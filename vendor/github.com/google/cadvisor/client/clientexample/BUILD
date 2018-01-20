@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "clientexample",
     importpath = "github.com/google/cadvisor/client/clientexample",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

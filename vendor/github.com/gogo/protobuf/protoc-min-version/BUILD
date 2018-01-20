@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "protoc-min-version",
     importpath = "github.com/gogo/protobuf/protoc-min-version",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

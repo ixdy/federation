@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["nfs_test.go"],
     importpath = "github.com/libopenstorage/openstorage/volume/drivers/nfs",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/libopenstorage/openstorage/api:go_default_library",
         "//vendor/github.com/libopenstorage/openstorage/volume/drivers/test:go_default_library",

@@ -15,7 +15,6 @@ go_test(
         "yaml_test.go",
     ],
     importpath = "github.com/go-openapi/loads/fmts",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/go-openapi/spec:go_default_library",
         "//vendor/github.com/go-openapi/swag:go_default_library",

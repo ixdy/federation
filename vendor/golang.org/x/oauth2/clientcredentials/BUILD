@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["clientcredentials_test.go"],
     importpath = "golang.org/x/oauth2/clientcredentials",
-    library = ":go_default_library",
 )
 
 filegroup(

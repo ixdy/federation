@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "echo-socket-activated",
     importpath = "github.com/coreos/rkt/tests/echo-socket-activated",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -29,7 +29,6 @@ go_test(
         "middleware_unix_test.go",
     ],
     importpath = "github.com/docker/docker/pkg/authorization",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/plugingetter:go_default_library",
         "//vendor/github.com/docker/docker/pkg/plugins:go_default_library",

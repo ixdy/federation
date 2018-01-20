@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "check",
     importpath = "github.com/Azure/azure-sdk-for-go/arm/examples/check",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

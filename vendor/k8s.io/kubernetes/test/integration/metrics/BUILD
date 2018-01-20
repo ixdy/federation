@@ -33,7 +33,6 @@ go_test(
         "metrics_test.go",
     ],
     importpath = "k8s.io/kubernetes/test/integration/metrics",
-    library = ":go_default_library",
     tags = ["integration"],
     deps = [
         "//vendor/github.com/golang/glog:go_default_library",

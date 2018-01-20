@@ -22,7 +22,6 @@ go_test(
         "results_test.go",
     ],
     importpath = "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/identity/v3/tokens:go_default_library",

@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["debug_test.go"],
     importpath = "github.com/docker/docker/cli/debug",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/sirupsen/logrus:go_default_library"],
 )
 

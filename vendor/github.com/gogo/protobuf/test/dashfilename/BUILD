@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["df_test.go"],
     importpath = "github.com/gogo/protobuf/test/dashfilename",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -41,7 +41,6 @@ go_test(
         "ulimit_test.go",
     ],
     importpath = "github.com/docker/docker/opts",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/go-units:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

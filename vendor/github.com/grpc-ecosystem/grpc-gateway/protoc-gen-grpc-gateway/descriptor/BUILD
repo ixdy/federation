@@ -28,7 +28,6 @@ go_test(
         "types_test.go",
     ],
     importpath = "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/protobuf/proto:go_default_library",
         "//vendor/github.com/golang/protobuf/protoc-gen-go/descriptor:go_default_library",

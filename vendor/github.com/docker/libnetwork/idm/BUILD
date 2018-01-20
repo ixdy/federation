@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["idm_test.go"],
     importpath = "github.com/docker/libnetwork/idm",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/libnetwork/testutils:go_default_library"],
 )
 

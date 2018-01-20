@@ -30,7 +30,6 @@ go_test(
     name = "go_default_test",
     srcs = ["homedir_test.go"],
     importpath = "github.com/docker/docker/pkg/homedir",
-    library = ":go_default_library",
 )
 
 filegroup(

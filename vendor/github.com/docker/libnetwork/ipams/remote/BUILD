@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["remote_test.go"],
     importpath = "github.com/docker/libnetwork/ipams/remote",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/plugins:go_default_library",
         "//vendor/github.com/docker/libnetwork/ipamapi:go_default_library",

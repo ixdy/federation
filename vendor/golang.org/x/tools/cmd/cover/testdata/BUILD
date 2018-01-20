@@ -13,7 +13,6 @@ go_library(
 go_binary(
     name = "testdata",
     importpath = "golang.org/x/tools/cmd/cover/testdata",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "metrics_client",
     importpath = "google.golang.org/grpc/stress/metrics_client",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

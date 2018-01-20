@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "mem-stresser",
     importpath = "github.com/coreos/rkt/tests/rkt-monitor/mem-stresser",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

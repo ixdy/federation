@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "protoc-gen-gofast",
     importpath = "github.com/gogo/protobuf/protoc-gen-gofast",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

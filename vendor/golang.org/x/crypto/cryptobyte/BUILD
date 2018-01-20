@@ -18,7 +18,6 @@ go_test(
         "cryptobyte_test.go",
     ],
     importpath = "golang.org/x/crypto/cryptobyte",
-    library = ":go_default_library",
 )
 
 go_test(

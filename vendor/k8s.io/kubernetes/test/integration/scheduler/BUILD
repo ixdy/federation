@@ -18,7 +18,6 @@ go_test(
         "taint_test.go",
     ],
     importpath = "k8s.io/kubernetes/test/integration/scheduler",
-    library = ":go_default_library",
     tags = ["integration"],
     deps = [
         "//vendor/k8s.io/api/core/v1:go_default_library",

@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["compare_test.go"],
     importpath = "github.com/docker/docker/image/cache",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types/container:go_default_library",
         "//vendor/github.com/docker/docker/api/types/strslice:go_default_library",

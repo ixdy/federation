@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "protoc-gen-gogotypes",
     importpath = "github.com/gogo/protobuf/protoc-gen-gogotypes",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

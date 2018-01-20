@@ -37,7 +37,6 @@ go_test(
     name = "go_default_test",
     srcs = ["service_test.go"],
     importpath = "github.com/docker/docker/daemon/cluster/convert",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types/swarm:go_default_library",
         "//vendor/github.com/docker/docker/api/types/swarm/runtime:go_default_library",

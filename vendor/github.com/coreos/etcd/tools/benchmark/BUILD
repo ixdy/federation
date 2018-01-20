@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "benchmark",
     importpath = "github.com/coreos/etcd/tools/benchmark",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

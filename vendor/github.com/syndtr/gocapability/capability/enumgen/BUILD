@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "enumgen",
     importpath = "github.com/syndtr/gocapability/capability/enumgen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

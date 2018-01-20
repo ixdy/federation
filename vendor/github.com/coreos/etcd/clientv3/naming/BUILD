@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["grpc_test.go"],
     importpath = "github.com/coreos/etcd/clientv3/naming",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/etcd/clientv3:go_default_library",
         "//vendor/github.com/coreos/etcd/integration:go_default_library",

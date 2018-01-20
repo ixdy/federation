@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["restartmanager_test.go"],
     importpath = "github.com/docker/docker/restartmanager",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/docker/api/types/container:go_default_library"],
 )
 

@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["replacer_test.go"],
     importpath = "github.com/miekg/coredns/middleware/pkg/replacer",
-    library = ":go_default_library",
 )
 
 filegroup(

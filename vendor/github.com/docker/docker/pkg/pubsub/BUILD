@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["publisher_test.go"],
     importpath = "github.com/docker/docker/pkg/pubsub",
-    library = ":go_default_library",
 )
 
 filegroup(

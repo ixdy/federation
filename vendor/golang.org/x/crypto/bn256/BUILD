@@ -23,7 +23,6 @@ go_test(
         "example_test.go",
     ],
     importpath = "golang.org/x/crypto/bn256",
-    library = ":go_default_library",
 )
 
 filegroup(

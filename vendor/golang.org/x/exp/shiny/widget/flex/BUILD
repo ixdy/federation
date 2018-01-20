@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["flex_test.go"],
     importpath = "golang.org/x/exp/shiny/widget/flex",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/exp/shiny/unit:go_default_library",
         "//vendor/golang.org/x/exp/shiny/widget:go_default_library",

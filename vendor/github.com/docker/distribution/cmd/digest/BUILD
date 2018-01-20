@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "digest",
     importpath = "github.com/docker/distribution/cmd/digest",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

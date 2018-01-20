@@ -34,7 +34,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/opencontainers/runc/libcontainer/specconv",
-    library = ":go_default_library",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux_amd64": [
             "//vendor/github.com/opencontainers/runc/libcontainer/configs/validate:go_default_library",

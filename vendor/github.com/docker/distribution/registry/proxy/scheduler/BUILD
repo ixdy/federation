@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["scheduler_test.go"],
     importpath = "github.com/docker/distribution/registry/proxy/scheduler",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/context:go_default_library",
         "//vendor/github.com/docker/distribution/reference:go_default_library",

@@ -32,7 +32,6 @@ go_test(
         "watcher_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware/auto",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/mholt/caddy:go_default_library"],
 )
 

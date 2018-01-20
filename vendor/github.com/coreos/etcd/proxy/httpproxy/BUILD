@@ -28,7 +28,6 @@ go_test(
         "reverse_test.go",
     ],
     importpath = "github.com/coreos/etcd/proxy/httpproxy",
-    library = ":go_default_library",
 )
 
 filegroup(

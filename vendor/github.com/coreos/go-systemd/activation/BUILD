@@ -19,7 +19,6 @@ go_test(
         "packetconns_test.go",
     ],
     importpath = "github.com/coreos/go-systemd/activation",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -18,7 +18,6 @@ go_test(
         "timeseries_test.go",
     ],
     importpath = "github.com/coreos/etcd/pkg/report",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -20,7 +20,6 @@ go_test(
         "journal_test.go",
     ],
     importpath = "github.com/coreos/go-systemd/sdjournal",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/coreos/go-systemd/journal:go_default_library"],
 )
 

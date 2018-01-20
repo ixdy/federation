@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "pointsto",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/pointsto",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

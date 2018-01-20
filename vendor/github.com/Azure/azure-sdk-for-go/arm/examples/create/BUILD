@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "create",
     importpath = "github.com/Azure/azure-sdk-for-go/arm/examples/create",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

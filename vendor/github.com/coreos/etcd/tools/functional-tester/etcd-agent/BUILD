@@ -21,7 +21,6 @@ go_library(
 go_binary(
     name = "etcd-agent",
     importpath = "github.com/coreos/etcd/tools/functional-tester/etcd-agent",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -32,7 +31,6 @@ go_test(
         "rpc_test.go",
     ],
     importpath = "github.com/coreos/etcd/tools/functional-tester/etcd-agent",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/coreos/etcd/tools/functional-tester/etcd-agent/client:go_default_library"],
 )
 

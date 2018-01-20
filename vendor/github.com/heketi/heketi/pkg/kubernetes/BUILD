@@ -25,7 +25,6 @@ go_test(
     name = "go_default_test",
     srcs = ["backupdb_test.go"],
     importpath = "github.com/heketi/heketi/pkg/kubernetes",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/boltdb/bolt:go_default_library",
         "//vendor/github.com/heketi/tests:go_default_library",

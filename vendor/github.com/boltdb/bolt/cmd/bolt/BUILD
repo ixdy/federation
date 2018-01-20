@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "bolt",
     importpath = "github.com/boltdb/bolt/cmd/bolt",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["runenames_test.go"],
     importpath = "golang.org/x/text/unicode/runenames",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/text/internal/gen:go_default_library",
         "//vendor/golang.org/x/text/internal/testtext:go_default_library",

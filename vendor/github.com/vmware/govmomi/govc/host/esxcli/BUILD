@@ -32,7 +32,6 @@ go_test(
         "response_test.go",
     ],
     importpath = "github.com/vmware/govmomi/govc/host/esxcli",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/vmware/govmomi/vim25/types:go_default_library",
         "//vendor/github.com/vmware/govmomi/vim25/xml:go_default_library",

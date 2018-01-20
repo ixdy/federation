@@ -28,7 +28,6 @@ go_library(
 go_binary(
     name = "example",
     importpath = "golang.org/x/sys/windows/svc/example",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

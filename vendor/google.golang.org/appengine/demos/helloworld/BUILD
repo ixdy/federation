@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "helloworld",
     importpath = "google.golang.org/appengine/demos/helloworld",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

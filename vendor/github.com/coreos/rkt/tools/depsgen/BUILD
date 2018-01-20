@@ -22,7 +22,6 @@ go_library(
 go_binary(
     name = "depsgen",
     importpath = "github.com/coreos/rkt/tools/depsgen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

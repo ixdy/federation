@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "networkDb",
     importpath = "github.com/docker/libnetwork/test/networkDb",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -38,5 +38,4 @@ filegroup(
 go_binary(
     name = "gke-certificates-controller",
     importpath = "k8s.io/kubernetes/cmd/gke-certificates-controller",
-    library = ":go_default_library",
 )

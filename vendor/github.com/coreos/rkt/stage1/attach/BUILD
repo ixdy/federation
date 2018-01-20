@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "attach",
     importpath = "github.com/coreos/rkt/stage1/attach",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

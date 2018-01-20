@@ -49,7 +49,6 @@ go_test(
         "pvlcontroller_test.go",
     ],
     importpath = "k8s.io/kubernetes/pkg/controller/cloud",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/glog:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

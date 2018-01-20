@@ -22,7 +22,6 @@ go_test(
         "time_as_int64_codec_test.go",
     ],
     importpath = "github.com/json-iterator/go/extra",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/json-iterator/go:go_default_library",
         "//vendor/github.com/stretchr/testify/require:go_default_library",

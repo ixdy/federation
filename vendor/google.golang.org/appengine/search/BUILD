@@ -26,7 +26,6 @@ go_test(
         "struct_test.go",
     ],
     importpath = "google.golang.org/appengine/search",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/protobuf/proto:go_default_library",
         "//vendor/google.golang.org/appengine:go_default_library",

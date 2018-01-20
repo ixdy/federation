@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["test_test.go"],
     importpath = "github.com/sirupsen/logrus/hooks/test",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/sirupsen/logrus:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

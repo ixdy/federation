@@ -30,7 +30,6 @@ go_test(
         "syslog_formatter_test.go",
     ],
     importpath = "github.com/prometheus/common/log",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/Sirupsen/logrus:go_default_library"],
 )
 

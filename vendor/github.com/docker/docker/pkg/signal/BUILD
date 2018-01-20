@@ -43,7 +43,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/docker/pkg/signal",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/stretchr/testify/assert:go_default_library"],
 )
 

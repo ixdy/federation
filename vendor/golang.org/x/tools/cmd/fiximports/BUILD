@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "fiximports",
     importpath = "golang.org/x/tools/cmd/fiximports",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -18,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["main_test.go"],
     importpath = "golang.org/x/tools/cmd/fiximports",
-    library = ":go_default_library",
 )
 
 filegroup(

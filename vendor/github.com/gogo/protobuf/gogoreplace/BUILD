@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "gogoreplace",
     importpath = "github.com/gogo/protobuf/gogoreplace",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

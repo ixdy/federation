@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "gc",
     importpath = "github.com/coreos/rkt/tests/stub-stage1/gc",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

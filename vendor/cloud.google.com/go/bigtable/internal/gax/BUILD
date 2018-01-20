@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["invoke_test.go"],
     importpath = "cloud.google.com/go/bigtable/internal/gax",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/net/context:go_default_library",
         "//vendor/google.golang.org/grpc:go_default_library",

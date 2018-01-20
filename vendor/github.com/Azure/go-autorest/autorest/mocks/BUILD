@@ -17,7 +17,6 @@ go_test(
         "mocks_test.go",
     ],
     importpath = "github.com/Azure/go-autorest/autorest/mocks",
-    library = ":go_default_library",
 )
 
 filegroup(

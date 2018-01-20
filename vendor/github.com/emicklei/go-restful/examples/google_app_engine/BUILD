@@ -20,7 +20,6 @@ go_library(
 go_binary(
     name = "google_app_engine",
     importpath = "github.com/emicklei/go-restful/examples/google_app_engine",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

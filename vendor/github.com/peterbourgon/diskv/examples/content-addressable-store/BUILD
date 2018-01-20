@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "content-addressable-store",
     importpath = "github.com/peterbourgon/diskv/examples/content-addressable-store",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

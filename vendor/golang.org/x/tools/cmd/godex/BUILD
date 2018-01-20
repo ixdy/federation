@@ -20,7 +20,6 @@ go_library(
 go_binary(
     name = "godex",
     importpath = "golang.org/x/tools/cmd/godex",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

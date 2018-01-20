@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "easyjson",
     importpath = "github.com/mailru/easyjson/easyjson",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

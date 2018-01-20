@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["taskqueue_test.go"],
     importpath = "google.golang.org/appengine/taskqueue",
-    library = ":go_default_library",
     deps = [
         "//vendor/google.golang.org/appengine:go_default_library",
         "//vendor/google.golang.org/appengine/internal:go_default_library",

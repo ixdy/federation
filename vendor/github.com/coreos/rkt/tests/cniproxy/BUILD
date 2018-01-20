@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "cniproxy",
     importpath = "github.com/coreos/rkt/tests/cniproxy",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

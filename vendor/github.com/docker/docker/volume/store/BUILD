@@ -32,7 +32,6 @@ go_test(
     name = "go_default_test",
     srcs = ["store_test.go"],
     importpath = "github.com/docker/docker/volume/store",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/volume/drivers:go_default_library",
         "//vendor/github.com/docker/docker/volume/testutils:go_default_library",

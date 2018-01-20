@@ -23,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["client_test.go"],
     importpath = "google.golang.org/appengine/remote_api",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/net/context:go_default_library",
         "//vendor/google.golang.org/appengine/datastore:go_default_library",

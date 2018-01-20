@@ -26,7 +26,6 @@ go_library(
 go_binary(
     name = "tests",
     importpath = "github.com/coreos/rkt/tests",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -45,7 +44,6 @@ go_test(
         "rkt_stop_test.go",
     ],
     importpath = "github.com/coreos/rkt/tests",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/coreos/gexpect:go_default_library",
         "//vendor/github.com/coreos/rkt/common:go_default_library",

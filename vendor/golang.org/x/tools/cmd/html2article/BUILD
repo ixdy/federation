@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "html2article",
     importpath = "golang.org/x/tools/cmd/html2article",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

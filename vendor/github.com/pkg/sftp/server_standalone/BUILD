@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "server_standalone",
     importpath = "github.com/pkg/sftp/server_standalone",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

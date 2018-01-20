@@ -22,7 +22,6 @@ go_library(
 go_binary(
     name = "docker-device-tool",
     importpath = "github.com/docker/docker/contrib/docker-device-tool",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

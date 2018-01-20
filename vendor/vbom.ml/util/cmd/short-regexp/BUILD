@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "short-regexp",
     importpath = "vbom.ml/util/cmd/short-regexp",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -20,7 +20,6 @@ go_test(
     srcs = ["instructions_test.go"],
     data = glob(["testdata/**"]),
     importpath = "golang.org/x/net/bpf",
-    library = ":go_default_library",
 )
 
 go_test(

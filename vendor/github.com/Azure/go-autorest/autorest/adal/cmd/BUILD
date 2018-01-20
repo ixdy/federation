@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "cmd",
     importpath = "github.com/Azure/go-autorest/autorest/adal/cmd",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -46,7 +46,6 @@ go_test(
         "subzone_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware/kubernetes",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/mholt/caddy:go_default_library",
         "//vendor/k8s.io/client-go/1.5/pkg/api/unversioned:go_default_library",

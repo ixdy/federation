@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "loadtest",
     importpath = "cloud.google.com/go/bigtable/cmd/loadtest",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["parse_test.go"],
     importpath = "github.com/storageos/go-api/types/filters",
-    library = ":go_default_library",
 )
 
 filegroup(

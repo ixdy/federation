@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["serverreflection_test.go"],
     importpath = "google.golang.org/grpc/reflection",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/protobuf/proto:go_default_library",
         "//vendor/github.com/golang/protobuf/protoc-gen-go/descriptor:go_default_library",

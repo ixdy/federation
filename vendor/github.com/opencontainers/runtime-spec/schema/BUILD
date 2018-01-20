@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "schema",
     importpath = "github.com/opencontainers/runtime-spec/schema",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

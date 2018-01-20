@@ -45,7 +45,6 @@ go_test(
         "version_test.go",
     ],
     importpath = "github.com/vmware/govmomi/govc/flags",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -34,7 +34,6 @@ go_test(
     name = "go_default_test",
     srcs = ["registry_test.go"],
     importpath = "github.com/docker/distribution/registry",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/distribution/configuration:go_default_library"],
 )
 

@@ -101,7 +101,6 @@ go_library(
 go_binary(
     name = "dockerd",
     importpath = "github.com/docker/docker/cmd/dockerd",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -118,7 +117,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/docker/docker/cmd/dockerd",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/cli/config:go_default_library",
         "//vendor/github.com/docker/docker/daemon/config:go_default_library",

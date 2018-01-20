@@ -17,7 +17,6 @@ go_test(
         "table_test.go",
     ],
     importpath = "golang.org/x/net/publicsuffix",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "json-patch",
     importpath = "github.com/evanphx/json-patch/cmd/json-patch",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

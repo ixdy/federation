@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["nametemplate_test.go"],
     importpath = "github.com/miekg/coredns/middleware/kubernetes/nametemplate",
-    library = ":go_default_library",
 )
 
 filegroup(

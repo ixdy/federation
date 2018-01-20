@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "search",
     importpath = "cloud.google.com/go/examples/bigtable/search",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

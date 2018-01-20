@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "apparmor",
     importpath = "github.com/docker/docker/contrib/apparmor",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

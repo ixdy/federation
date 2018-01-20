@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["progressbar_test.go"],
     importpath = "github.com/coreos/pkg/progressutil",
-    library = ":go_default_library",
 )
 
 filegroup(

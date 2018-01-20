@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "ebnflint",
     importpath = "golang.org/x/exp/ebnflint",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -22,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["ebnflint_test.go"],
     importpath = "golang.org/x/exp/ebnflint",
-    library = ":go_default_library",
 )
 
 filegroup(

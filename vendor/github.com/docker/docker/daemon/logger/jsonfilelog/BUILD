@@ -28,7 +28,6 @@ go_test(
     name = "go_default_test",
     srcs = ["jsonfilelog_test.go"],
     importpath = "github.com/docker/docker/daemon/logger/jsonfilelog",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/daemon/logger:go_default_library",
         "//vendor/github.com/docker/docker/pkg/jsonlog:go_default_library",

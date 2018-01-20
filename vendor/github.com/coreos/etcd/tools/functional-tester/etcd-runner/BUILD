@@ -20,7 +20,6 @@ go_library(
 go_binary(
     name = "etcd-runner",
     importpath = "github.com/coreos/etcd/tools/functional-tester/etcd-runner",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

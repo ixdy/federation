@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["entities_test.go"],
     importpath = "github.com/Azure/azure-sdk-for-go/management/virtualmachineimage",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["memcache_test.go"],
     importpath = "github.com/gregjones/httpcache/memcache",
-    library = ":go_default_library",
 )
 
 filegroup(

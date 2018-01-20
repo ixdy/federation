@@ -19,7 +19,6 @@ go_test(
         "types_test.go",
     ],
     importpath = "github.com/coreos/pkg/flagutil",
-    library = ":go_default_library",
 )
 
 filegroup(

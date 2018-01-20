@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["etchosts_test.go"],
     importpath = "github.com/docker/libnetwork/etchosts",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/libnetwork/testutils:go_default_library"],
 )
 

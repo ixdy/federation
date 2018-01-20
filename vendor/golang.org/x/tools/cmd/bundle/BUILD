@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "bundle",
     importpath = "golang.org/x/tools/cmd/bundle",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -19,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["main_test.go"],
     importpath = "golang.org/x/tools/cmd/bundle",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/tools/go/buildutil:go_default_library"],
 )
 

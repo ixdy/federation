@@ -31,7 +31,6 @@ go_test(
     name = "go_default_test",
     srcs = ["blake2s_test.go"],
     importpath = "golang.org/x/crypto/blake2s",
-    library = ":go_default_library",
 )
 
 filegroup(

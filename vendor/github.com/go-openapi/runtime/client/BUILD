@@ -27,7 +27,6 @@ go_test(
         "runtime_test.go",
     ],
     importpath = "github.com/go-openapi/runtime/client",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/go-openapi/runtime:go_default_library",
         "//vendor/github.com/go-openapi/strfmt:go_default_library",

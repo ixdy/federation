@@ -48,7 +48,6 @@ go_test(
         "ring_test.go",
     ],
     importpath = "github.com/docker/docker/daemon/logger",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types/backend:go_default_library",
         "//vendor/github.com/docker/docker/api/types/plugins/logdriver:go_default_library",

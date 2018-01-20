@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "j2y2j",
     importpath = "github.com/googleapis/gnostic/tools/j2y2j",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

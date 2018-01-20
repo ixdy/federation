@@ -13,7 +13,6 @@ go_library(
 go_binary(
     name = "bridge",
     importpath = "github.com/coreos/etcd/tools/local-tester/bridge",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

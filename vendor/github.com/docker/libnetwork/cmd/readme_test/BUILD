@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "readme_test",
     importpath = "github.com/docker/libnetwork/cmd/readme_test",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

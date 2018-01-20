@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "generator",
     importpath = "github.com/rancher/go-rancher/generator",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

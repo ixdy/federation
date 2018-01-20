@@ -23,7 +23,6 @@ go_test(
         "manifest_test.go",
     ],
     importpath = "github.com/docker/distribution/manifest/schema2",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution:go_default_library",
         "//vendor/github.com/docker/distribution/context:go_default_library",

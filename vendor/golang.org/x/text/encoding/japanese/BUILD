@@ -23,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["all_test.go"],
     importpath = "golang.org/x/text/encoding/japanese",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/text/encoding:go_default_library",
         "//vendor/golang.org/x/text/encoding/internal:go_default_library",

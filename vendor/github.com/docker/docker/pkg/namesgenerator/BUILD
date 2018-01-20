@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["names-generator_test.go"],
     importpath = "github.com/docker/docker/pkg/namesgenerator",
-    library = ":go_default_library",
 )
 
 filegroup(

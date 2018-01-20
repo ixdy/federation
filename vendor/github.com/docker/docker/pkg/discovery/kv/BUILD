@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["kv_test.go"],
     importpath = "github.com/docker/docker/pkg/discovery/kv",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/discovery:go_default_library",
         "//vendor/github.com/docker/libkv:go_default_library",

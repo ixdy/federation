@@ -57,7 +57,6 @@ go_test(
         "taint_toleration_test.go",
     ],
     importpath = "k8s.io/kubernetes/plugin/pkg/scheduler/algorithm/priorities",
-    library = ":go_default_library",
     deps = [
         "//vendor/k8s.io/api/apps/v1beta1:go_default_library",
         "//vendor/k8s.io/api/core/v1:go_default_library",

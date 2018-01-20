@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "examples",
     importpath = "github.com/grpc-ecosystem/grpc-gateway/examples",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -29,7 +28,6 @@ go_test(
         "main_test.go",
     ],
     importpath = "github.com/grpc-ecosystem/grpc-gateway/examples",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/protobuf/jsonpb:go_default_library",
         "//vendor/github.com/golang/protobuf/proto:go_default_library",

@@ -22,7 +22,6 @@ go_test(
     name = "go_default_test",
     srcs = ["token_test.go"],
     importpath = "github.com/docker/distribution/registry/auth/token",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/distribution/context:go_default_library",
         "//vendor/github.com/docker/distribution/registry/auth:go_default_library",

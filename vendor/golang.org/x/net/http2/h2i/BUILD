@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "h2i",
     importpath = "golang.org/x/net/http2/h2i",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

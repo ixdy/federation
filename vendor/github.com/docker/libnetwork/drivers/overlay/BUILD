@@ -56,7 +56,6 @@ go_test(
     name = "go_default_test",
     srcs = ["overlay_test.go"],
     importpath = "github.com/docker/libnetwork/drivers/overlay",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/plugingetter:go_default_library",
         "//vendor/github.com/docker/libkv/store/consul:go_default_library",

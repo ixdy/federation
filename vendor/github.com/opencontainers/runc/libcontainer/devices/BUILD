@@ -31,7 +31,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/opencontainers/runc/libcontainer/devices",
-    library = ":go_default_library",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux_amd64": [
             "//vendor/golang.org/x/sys/unix:go_default_library",

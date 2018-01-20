@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["nodes_test.go"],
     importpath = "github.com/docker/docker/pkg/discovery/nodes",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/pkg/discovery:go_default_library",
         "//vendor/github.com/go-check/check:go_default_library",

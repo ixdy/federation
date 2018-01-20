@@ -20,7 +20,6 @@ go_test(
         "generator_test.go",
     ],
     importpath = "github.com/docker/docker/pkg/discovery",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/go-check/check:go_default_library"],
 )
 

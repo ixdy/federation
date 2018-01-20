@@ -19,7 +19,6 @@ go_test(
         "statement_test.go",
     ],
     importpath = "github.com/docker/libtrust/trustgraph",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/libtrust:go_default_library",
         "//vendor/github.com/docker/libtrust/testutil:go_default_library",

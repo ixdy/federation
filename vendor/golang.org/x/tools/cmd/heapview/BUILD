@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "heapview",
     importpath = "golang.org/x/tools/cmd/heapview",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -19,7 +19,6 @@ go_test(
     name = "go_default_test",
     srcs = ["requests_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/pagination:go_default_library",

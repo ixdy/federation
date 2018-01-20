@@ -111,7 +111,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "k8s.io/kubernetes/test/e2e_node",
-    library = ":go_default_library",
     tags = ["e2e"],
     deps = [
         "//vendor/github.com/coreos/go-systemd/util:go_default_library",

@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "gocp",
     importpath = "github.com/mrunalp/fileutils/cmd/gocp",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

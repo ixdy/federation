@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["api_test.go"],
     importpath = "github.com/go-openapi/runtime/internal/testing/simplepetstore",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/go-openapi/runtime:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

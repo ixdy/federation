@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "tlsdemo",
     importpath = "github.com/docker/libtrust/tlsdemo",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

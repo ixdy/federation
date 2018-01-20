@@ -24,7 +24,6 @@ go_test(
     name = "go_default_test",
     srcs = ["hostdiscovery_test.go"],
     importpath = "github.com/docker/libnetwork/hostdiscovery",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/deckarep/golang-set:go_default_library",
         "//vendor/github.com/docker/docker/pkg/discovery:go_default_library",

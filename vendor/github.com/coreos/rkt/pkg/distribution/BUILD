@@ -30,7 +30,6 @@ go_test(
         "docker_test.go",
     ],
     importpath = "github.com/coreos/rkt/pkg/distribution",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/appc/spec/discovery:go_default_library"],
 )
 

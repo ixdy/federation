@@ -21,7 +21,6 @@ go_library(
 go_binary(
     name = "present",
     importpath = "golang.org/x/tools/cmd/present",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

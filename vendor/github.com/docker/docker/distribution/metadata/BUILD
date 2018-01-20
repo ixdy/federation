@@ -26,7 +26,6 @@ go_test(
         "v2_metadata_service_test.go",
     ],
     importpath = "github.com/docker/docker/distribution/metadata",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/layer:go_default_library",
         "//vendor/github.com/opencontainers/go-digest:go_default_library",

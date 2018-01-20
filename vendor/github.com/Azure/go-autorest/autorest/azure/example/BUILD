@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "example",
     importpath = "github.com/Azure/go-autorest/autorest/azure/example",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

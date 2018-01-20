@@ -22,7 +22,6 @@ go_library(
 go_binary(
     name = "etcd-dump-logs",
     importpath = "github.com/coreos/etcd/tools/etcd-dump-logs",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

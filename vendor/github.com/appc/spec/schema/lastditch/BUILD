@@ -24,7 +24,6 @@ go_test(
         "pod_test.go",
     ],
     importpath = "github.com/appc/spec/schema/lastditch",
-    library = ":go_default_library",
 )
 
 filegroup(

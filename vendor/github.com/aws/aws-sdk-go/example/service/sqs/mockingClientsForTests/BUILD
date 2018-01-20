@@ -16,7 +16,6 @@ go_library(
 go_binary(
     name = "mockingClientsForTests",
     importpath = "github.com/aws/aws-sdk-go/example/service/sqs/mockingClientsForTests",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -24,7 +23,6 @@ go_test(
     name = "go_default_test",
     srcs = ["ifaceExample_test.go"],
     importpath = "github.com/aws/aws-sdk-go/example/service/sqs/mockingClientsForTests",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/service/sqs:go_default_library",

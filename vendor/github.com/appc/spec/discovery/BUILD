@@ -27,7 +27,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "github.com/appc/spec/discovery",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/appc/spec/schema/types:go_default_library"],
 )
 

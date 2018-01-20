@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["theme_test.go"],
     importpath = "golang.org/x/exp/shiny/widget/theme",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/exp/shiny/unit:go_default_library",
         "//vendor/golang.org/x/image/math/fixed:go_default_library",

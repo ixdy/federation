@@ -18,7 +18,6 @@ go_test(
         "keylock_test.go",
     ],
     importpath = "github.com/coreos/rkt/pkg/lock",
-    library = ":go_default_library",
 )
 
 filegroup(

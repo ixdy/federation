@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "urlgen",
     importpath = "github.com/influxdata/influxdb/tests/urlgen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

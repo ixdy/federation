@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "enter",
     importpath = "github.com/coreos/rkt/stage1_fly/enter",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

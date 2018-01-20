@@ -49,7 +49,6 @@ go_test(
     name = "go_default_test",
     srcs = ["util_test.go"],
     importpath = "github.com/coreos/etcd/etcdctl/ctlv2/command",
-    library = ":go_default_library",
 )
 
 filegroup(

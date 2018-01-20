@@ -25,7 +25,6 @@ go_test(
     name = "go_default_test",
     srcs = ["points_writer_internal_test.go"],
     importpath = "github.com/influxdata/influxdb/coordinator",
-    library = ":go_default_library",
 )
 
 go_test(

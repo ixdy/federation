@@ -35,7 +35,6 @@ go_test(
         "meta_test.go",
     ],
     importpath = "github.com/influxdata/influxdb/services/meta",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/crypto/bcrypt:go_default_library"],
 )
 

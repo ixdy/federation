@@ -28,7 +28,6 @@ go_test(
         "resources_test.go",
     ],
     importpath = "github.com/coreos/rkt/stage1/init/kvm",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/appc/spec/schema/types:go_default_library",
         "//vendor/github.com/containernetworking/cni/pkg/types:go_default_library",

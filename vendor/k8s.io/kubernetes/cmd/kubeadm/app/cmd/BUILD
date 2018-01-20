@@ -83,7 +83,6 @@ go_test(
         "token_test.go",
     ],
     importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd",
-    library = ":go_default_library",
     deps = [
         "//vendor/k8s.io/kubernetes/cmd/kubeadm/app/constants:go_default_library",
         "//vendor/k8s.io/kubernetes/cmd/kubeadm/app/preflight:go_default_library",

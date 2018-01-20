@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["fuzz_test.go"],
     importpath = "github.com/gogo/protobuf/test/fuzztests",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/gogo/protobuf/proto:go_default_library"],
 )
 

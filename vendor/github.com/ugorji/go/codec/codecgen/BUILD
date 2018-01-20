@@ -13,7 +13,6 @@ go_library(
 go_binary(
     name = "codecgen",
     importpath = "github.com/ugorji/go/codec/codecgen",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

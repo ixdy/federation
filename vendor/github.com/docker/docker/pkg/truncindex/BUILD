@@ -12,7 +12,6 @@ go_test(
     name = "go_default_test",
     srcs = ["truncindex_test.go"],
     importpath = "github.com/docker/docker/pkg/truncindex",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/docker/docker/pkg/stringid:go_default_library"],
 )
 

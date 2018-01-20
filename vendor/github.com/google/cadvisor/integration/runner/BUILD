@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "runner",
     importpath = "github.com/google/cadvisor/integration/runner",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["fs_test.go"],
     importpath = "github.com/prometheus/procfs/sysfs",
-    library = ":go_default_library",
 )
 
 filegroup(

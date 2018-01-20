@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "tomljson",
     importpath = "github.com/pelletier/go-toml/cmd/tomljson",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -19,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["main_test.go"],
     importpath = "github.com/pelletier/go-toml/cmd/tomljson",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -44,7 +44,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "cloud.google.com/go/datastore",
-    library = ":go_default_library",
     deps = [
         "//vendor/cloud.google.com/go/internal/testutil:go_default_library",
         "//vendor/github.com/golang/protobuf/proto:go_default_library",

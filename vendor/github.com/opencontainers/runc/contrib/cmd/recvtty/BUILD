@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "recvtty",
     importpath = "github.com/opencontainers/runc/contrib/cmd/recvtty",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["string_test.go"],
     importpath = "github.com/coreos/rkt/pkg/set",
-    library = ":go_default_library",
 )
 
 filegroup(

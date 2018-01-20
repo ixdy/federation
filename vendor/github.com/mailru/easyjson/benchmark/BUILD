@@ -17,7 +17,6 @@ go_test(
         "dummy_test.go",
     ],
     importpath = "github.com/mailru/easyjson/benchmark",
-    library = ":go_default_library",
 )
 
 filegroup(

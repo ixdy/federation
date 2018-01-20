@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["bridge_test.go"],
     importpath = "github.com/prometheus/client_golang/prometheus/graphite",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/prometheus/client_golang/prometheus:go_default_library",
         "//vendor/github.com/prometheus/common/model:go_default_library",

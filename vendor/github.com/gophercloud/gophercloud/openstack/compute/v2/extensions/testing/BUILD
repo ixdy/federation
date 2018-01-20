@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["delegate_test.go"],
     importpath = "github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/testing",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/gophercloud/gophercloud/openstack/common/extensions:go_default_library",
         "//vendor/github.com/gophercloud/gophercloud/openstack/compute/v2/extensions:go_default_library",

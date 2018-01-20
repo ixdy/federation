@@ -21,7 +21,6 @@ go_test(
         "machinestats_test.go",
     ],
     importpath = "github.com/google/cadvisor/integration/tests/api",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/google/cadvisor/info/v1:go_default_library",
         "//vendor/github.com/google/cadvisor/info/v2:go_default_library",

@@ -18,7 +18,6 @@ go_test(
     name = "go_default_test",
     srcs = ["channel_test.go"],
     importpath = "google.golang.org/appengine/channel",
-    library = ":go_default_library",
     deps = ["//vendor/google.golang.org/appengine/internal:go_default_library"],
 )
 

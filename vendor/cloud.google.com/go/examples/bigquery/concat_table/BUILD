@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "concat_table",
     importpath = "cloud.google.com/go/examples/bigquery/concat_table",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

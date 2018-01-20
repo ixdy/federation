@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["xmpp_test.go"],
     importpath = "google.golang.org/appengine/xmpp",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/golang/protobuf/proto:go_default_library",
         "//vendor/google.golang.org/appengine:go_default_library",

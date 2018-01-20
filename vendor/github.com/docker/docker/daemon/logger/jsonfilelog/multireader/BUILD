@@ -11,7 +11,6 @@ go_test(
     name = "go_default_test",
     srcs = ["multireader_test.go"],
     importpath = "github.com/docker/docker/daemon/logger/jsonfilelog/multireader",
-    library = ":go_default_library",
 )
 
 filegroup(

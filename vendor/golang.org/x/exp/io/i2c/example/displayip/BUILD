@@ -21,7 +21,6 @@ go_library(
 go_binary(
     name = "displayip",
     importpath = "golang.org/x/exp/io/i2c/example/displayip",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

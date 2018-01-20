@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["api_test.go"],
     importpath = "github.com/prometheus/client_golang/api/prometheus/v1",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/prometheus/common/model:go_default_library"],
 )
 

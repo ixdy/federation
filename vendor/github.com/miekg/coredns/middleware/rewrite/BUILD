@@ -28,7 +28,6 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     importpath = "github.com/miekg/coredns/middleware/rewrite",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/miekg/coredns/middleware:go_default_library",
         "//vendor/github.com/miekg/coredns/middleware/pkg/dnsrecorder:go_default_library",

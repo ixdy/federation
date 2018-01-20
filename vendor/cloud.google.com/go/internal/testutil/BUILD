@@ -21,7 +21,6 @@ go_test(
     name = "go_default_test",
     srcs = ["server_test.go"],
     importpath = "cloud.google.com/go/internal/testutil",
-    library = ":go_default_library",
     deps = ["//vendor/google.golang.org/grpc:go_default_library"],
 )
 

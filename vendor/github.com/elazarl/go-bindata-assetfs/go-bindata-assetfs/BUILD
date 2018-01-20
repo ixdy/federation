@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "go-bindata-assetfs",
     importpath = "github.com/elazarl/go-bindata-assetfs/go-bindata-assetfs",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

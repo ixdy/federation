@@ -69,7 +69,6 @@ go_test(
     name = "go_default_test",
     srcs = ["taints_test.go"],
     importpath = "k8s.io/kubernetes/test/e2e/scheduling",
-    library = ":go_default_library",
     tags = ["e2e"],
     deps = [
         "//vendor/github.com/onsi/ginkgo:go_default_library",

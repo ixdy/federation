@@ -24,7 +24,6 @@ go_test(
         "helpers_test.go",
     ],
     importpath = "github.com/miekg/coredns/middleware/test",
-    library = ":go_default_library",
 )
 
 filegroup(

@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "stress",
     importpath = "golang.org/x/tools/cmd/stress",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -20,7 +20,6 @@ go_test(
         "server_test.go",
     ],
     importpath = "google.golang.org/api/transport/bytestream/internal",
-    library = ":go_default_library",
     deps = [
         "//vendor/golang.org/x/net/context:go_default_library",
         "//vendor/google.golang.org/genproto/googleapis/bytestream:go_default_library",

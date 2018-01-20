@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["discovery_test.go"],
     importpath = "github.com/docker/docker/daemon/discovery",
-    library = ":go_default_library",
 )
 
 filegroup(

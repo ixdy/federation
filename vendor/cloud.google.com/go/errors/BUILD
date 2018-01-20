@@ -16,7 +16,6 @@ go_test(
     name = "go_default_test",
     srcs = ["stack_test.go"],
     importpath = "cloud.google.com/go/errors",
-    library = ":go_default_library",
 )
 
 go_test(

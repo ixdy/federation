@@ -14,7 +14,6 @@ go_library(
 go_binary(
     name = "enter_kvm",
     importpath = "github.com/coreos/rkt/stage1/enter_kvm",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

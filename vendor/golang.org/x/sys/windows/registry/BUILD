@@ -32,7 +32,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "golang.org/x/sys/windows/registry",
-    library = ":go_default_library",
 )
 
 go_test(

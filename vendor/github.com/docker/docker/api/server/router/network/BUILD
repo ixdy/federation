@@ -30,7 +30,6 @@ go_test(
     name = "go_default_test",
     srcs = ["filter_test.go"],
     importpath = "github.com/docker/docker/api/server/router/network",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/docker/api/types:go_default_library",
         "//vendor/github.com/docker/docker/api/types/filters:go_default_library",

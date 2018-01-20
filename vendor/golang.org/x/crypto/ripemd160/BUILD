@@ -14,7 +14,6 @@ go_test(
     name = "go_default_test",
     srcs = ["ripemd160_test.go"],
     importpath = "golang.org/x/crypto/ripemd160",
-    library = ":go_default_library",
 )
 
 filegroup(

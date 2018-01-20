@@ -26,7 +26,6 @@ go_test(
         "rope_test.go",
     ],
     importpath = "vbom.ml/util/rope",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/bruth/assert:go_default_library"],
 )
 

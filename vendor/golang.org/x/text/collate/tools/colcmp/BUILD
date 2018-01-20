@@ -32,7 +32,6 @@ go_library(
 go_binary(
     name = "colcmp",
     importpath = "golang.org/x/text/collate/tools/colcmp",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

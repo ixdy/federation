@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "whicherrs",
     importpath = "golang.org/x/tools/cmd/guru/testdata/src/whicherrs",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

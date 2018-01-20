@@ -17,7 +17,6 @@ go_test(
     name = "go_default_test",
     srcs = ["null_test.go"],
     importpath = "github.com/docker/libnetwork/drivers/null",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/docker/libnetwork/testutils:go_default_library",
         "//vendor/github.com/docker/libnetwork/types:go_default_library",

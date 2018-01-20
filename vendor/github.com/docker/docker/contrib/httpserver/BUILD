@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "httpserver",
     importpath = "github.com/docker/docker/contrib/httpserver",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

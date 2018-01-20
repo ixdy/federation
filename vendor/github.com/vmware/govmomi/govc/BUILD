@@ -65,7 +65,6 @@ go_library(
 go_binary(
     name = "govc",
     importpath = "github.com/vmware/govmomi/govc",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 
@@ -73,7 +72,6 @@ go_test(
     name = "go_default_test",
     srcs = ["main_test.go"],
     importpath = "github.com/vmware/govmomi/govc",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/vmware/govmomi/govc/cli:go_default_library"],
 )
 

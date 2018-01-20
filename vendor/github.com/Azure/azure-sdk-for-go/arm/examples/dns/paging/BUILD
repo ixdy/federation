@@ -17,7 +17,6 @@ go_library(
 go_binary(
     name = "paging",
     importpath = "github.com/Azure/azure-sdk-for-go/arm/examples/dns/paging",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -15,7 +15,6 @@ go_library(
 go_binary(
     name = "putObjectAcl",
     importpath = "github.com/aws/aws-sdk-go/example/service/s3/putObjectAcl",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

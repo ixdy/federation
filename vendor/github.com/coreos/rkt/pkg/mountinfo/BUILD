@@ -20,7 +20,6 @@ go_test(
         "//conditions:default": [],
     }),
     importpath = "github.com/coreos/rkt/pkg/mountinfo",
-    library = ":go_default_library",
 )
 
 filegroup(

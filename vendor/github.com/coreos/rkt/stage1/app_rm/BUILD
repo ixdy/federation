@@ -26,7 +26,6 @@ go_library(
 go_binary(
     name = "app_rm",
     importpath = "github.com/coreos/rkt/stage1/app_rm",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

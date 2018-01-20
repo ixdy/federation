@@ -15,7 +15,6 @@ go_test(
     name = "go_default_test",
     srcs = ["yaml_test.go"],
     importpath = "github.com/go-openapi/runtime/yamlpc",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/stretchr/testify/assert:go_default_library"],
 )
 

@@ -28,7 +28,6 @@ go_test(
         "rename_test.go",
     ],
     importpath = "golang.org/x/tools/refactor/rename",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/tools/go/buildutil:go_default_library"],
 )
 

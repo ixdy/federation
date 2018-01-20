@@ -21,7 +21,6 @@ go_test(
         "renewal_test.go",
     ],
     importpath = "golang.org/x/crypto/acme/autocert",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/crypto/acme:go_default_library"],
 )
 

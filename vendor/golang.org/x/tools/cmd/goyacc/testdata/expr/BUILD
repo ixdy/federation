@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "expr",
     importpath = "golang.org/x/tools/cmd/goyacc/testdata/expr",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

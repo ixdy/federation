@@ -11,7 +11,6 @@ go_library(
 go_binary(
     name = "names-generator",
     importpath = "github.com/docker/docker/pkg/namesgenerator/cmd/names-generator",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

@@ -75,7 +75,6 @@ go_test(
     name = "go_default_test",
     srcs = ["header_test.go"],
     importpath = "golang.org/x/net/ipv4",
-    library = ":go_default_library",
     deps = ["//vendor/golang.org/x/net/internal/socket:go_default_library"],
 )
 

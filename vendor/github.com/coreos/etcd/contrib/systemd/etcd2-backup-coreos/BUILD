@@ -10,7 +10,6 @@ go_library(
 go_binary(
     name = "etcd2-backup-coreos",
     importpath = "github.com/coreos/etcd/contrib/systemd/etcd2-backup-coreos",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

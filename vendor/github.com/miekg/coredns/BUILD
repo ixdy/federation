@@ -10,8 +10,8 @@ go_library(
 
 go_binary(
     name = "coredns",
+    embed = [":go_default_library"],
     importpath = "github.com/miekg/coredns",
-    library = ":go_default_library",
     visibility = ["//visibility:public"],
 )
 

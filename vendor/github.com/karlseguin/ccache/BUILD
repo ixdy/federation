@@ -25,8 +25,8 @@ go_test(
         "layeredcache_test.go",
         "secondarycache_test.go",
     ],
+    embed = [":go_default_library"],
     importpath = "github.com/karlseguin/ccache",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/karlseguin/expect:go_default_library"],
 )
 

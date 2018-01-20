@@ -34,8 +34,8 @@ go_test(
         "request_resetbody_test.go",
         "retryer_test.go",
     ],
+    embed = [":go_default_library"],
     importpath = "github.com/aws/aws-sdk-go/aws/request",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/aws/aws-sdk-go/aws:go_default_library",
         "//vendor/github.com/aws/aws-sdk-go/aws/awserr:go_default_library",

@@ -25,8 +25,8 @@ go_test(
         "statusgroup_test.go",
         "stringset_test.go",
     ],
+    embed = [":go_default_library"],
     importpath = "github.com/heketi/heketi/pkg/utils",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/heketi/tests:go_default_library"],
 )
 

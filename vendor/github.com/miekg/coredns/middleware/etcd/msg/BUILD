@@ -17,8 +17,8 @@ go_test(
         "path_test.go",
         "service_test.go",
     ],
+    embed = [":go_default_library"],
     importpath = "github.com/miekg/coredns/middleware/etcd/msg",
-    library = ":go_default_library",
 )
 
 filegroup(

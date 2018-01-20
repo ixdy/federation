@@ -197,8 +197,8 @@ go_test(
         "//examples:config",
         "//test/fixtures",
     ],
+    embed = [":go_default_library"],
     importpath = "k8s.io/kubernetes/pkg/kubectl/cmd",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/spf13/cobra:go_default_library",
         "//vendor/github.com/stretchr/testify/assert:go_default_library",

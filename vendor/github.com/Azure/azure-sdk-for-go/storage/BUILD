@@ -64,8 +64,8 @@ go_test(
         "table_test.go",
         "util_test.go",
     ],
+    embed = [":go_default_library"],
     importpath = "github.com/Azure/azure-sdk-for-go/storage",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/Azure/go-autorest/autorest/azure:go_default_library",
         "//vendor/github.com/dnaeon/go-vcr/cassette:go_default_library",

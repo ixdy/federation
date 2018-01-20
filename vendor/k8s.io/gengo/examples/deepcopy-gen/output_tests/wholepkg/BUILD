@@ -20,8 +20,8 @@ go_library(
 go_test(
     name = "go_default_test",
     srcs = ["deepcopy_test.go"],
+    embed = [":go_default_library"],
     importpath = "k8s.io/gengo/examples/deepcopy-gen/output_tests/wholepkg",
-    library = ":go_default_library",
     deps = ["//vendor/github.com/google/gofuzz:go_default_library"],
 )
 

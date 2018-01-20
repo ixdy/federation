@@ -59,8 +59,8 @@ go_test(
         "virtualnetworks_test.go",
         "vms_test.go",
     ],
+    embed = [":go_default_library"],
     importpath = "github.com/vmware/photon-controller-go-sdk/photon",
-    library = ":go_default_library",
     deps = [
         "//vendor/github.com/onsi/ginkgo:go_default_library",
         "//vendor/github.com/onsi/gomega:go_default_library",
